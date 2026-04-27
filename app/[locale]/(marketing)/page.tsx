@@ -32,7 +32,7 @@ export default async function HomePage({
 
       <ProjectsPreview
         title={projectsContent.title}
-        intro={projectsContent.intro}
+        intro={projectsContent.description}
         ctaLabel={projectsContent.ctaLabel}
         ctaHref={`/${locale}/prosjekter`}
         projects={localeProjects.slice(0, 3)}

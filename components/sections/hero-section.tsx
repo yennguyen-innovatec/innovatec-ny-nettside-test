@@ -23,7 +23,7 @@ export function HeroSection({
   primaryCta,
 }: HeroSectionProps) {
   return (
-    <section className="py-10 sm:py-14 md:py-20">
+    <section className="py-2 sm:pb-14 md:pb-20">
       <Container>
         <div className="relative">
           {/* IMAGE */}

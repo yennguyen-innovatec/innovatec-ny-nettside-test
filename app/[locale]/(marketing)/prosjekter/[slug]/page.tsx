@@ -96,7 +96,7 @@ export default async function ProjectDetailPage({
                       {locale === "no" ? "Tjenester" : "Services"}
                     </dt>
                     <dd className="mt-3 flex flex-wrap gap-2">
-                      {project.services.map((service) => (
+                      {project.expertise.map((service) => (
                         <span
                           key={service}
                           className="rounded-full bg-white px-3 py-1 text-sm text-neutral-700 ring-1 ring-neutral-200"

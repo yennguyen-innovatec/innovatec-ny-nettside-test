@@ -12,8 +12,8 @@ export const ExpertisePageContent: Record<
     eyebrow: string;
     title: string;
     description: string;
-    servicesTitle: string;
-    services: ExpertiseItem[];
+    expertiseTitle: string;
+    expertise: ExpertiseItem[];
   }
 > = {
   no: {
@@ -21,8 +21,8 @@ export const ExpertisePageContent: Record<
     title: "Hva vi gjør",
     description:
       "Vi kombinerer vår ekspertise innen teknologi, design og strategisk forretningsutvikling for å levere digitale produkter og tjenester som hjelper kundene med å nå ambisjonene sine, både nå og i fremtiden.",
-    servicesTitle: "Tjenesteområder",
-    services: [
+    expertiseTitle: "Tjenesteområder",
+    expertise: [
       {
         id: "arkitektur-og-systemutvikling",
         title: "Arkitektur og systemutvikling",
@@ -61,8 +61,8 @@ export const ExpertisePageContent: Record<
     title: "What we do",
     description:
       "We combine our expertise in technology, design, and strategic business development to deliver digital products and services that help our clients achieve their ambitions, both now and in the future.",
-    servicesTitle: "Service areas",
-    services: [
+    expertiseTitle: "Service areas",
+    expertise: [
       {
         id: "architecture-and-system-development",
         title: "Architecture and system development",

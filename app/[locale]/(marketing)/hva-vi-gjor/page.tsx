@@ -15,8 +15,8 @@ export default async function ExpertisePage({
     <>
       <PageHero title={content.title} description={content.description} />
       <ExpertiseList
-        title={content.servicesTitle}
-        services={content.services}
+        title={content.expertiseTitle}
+        expertise={content.expertise}
       />
     </>
   );

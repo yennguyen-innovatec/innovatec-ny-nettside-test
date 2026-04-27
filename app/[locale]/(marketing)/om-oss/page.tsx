@@ -48,12 +48,12 @@ export default async function AboutPage({
         <Container>
           <div className="max-w-2xl">
             <h2 className="mt-3 text-2xl font-semibold md:text-3xl">
-              {expertiseContent.servicesTitle}
+              {expertiseContent.expertiseTitle}
             </h2>
           </div>
 
           <div className="mt-10 grid gap-6 md:grid-cols-2">
-            {expertiseContent.services.map((service) => (
+            {expertiseContent.expertise.map((service) => (
               <article
                 key={service.id}
                 className="rounded-[10px] bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"

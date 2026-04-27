@@ -12,7 +12,7 @@ export type Project = {
   image: StaticImageData;
   sector: string;
   year: string;
-  services: string[];
+  expertise: string[];
   challenge: string;
   solution: string;
   result: string;
@@ -30,7 +30,7 @@ export const projects: Record<Locale, Project[]> = {
       image: projectMainImage,
       sector: "Offentlig sektor / utdanning",
       year: "Langsiktig samarbeid",
-      services: [
+      expertise: [
         "Systemutvikling",
         "Integrasjoner",
         "Arkitektur",
@@ -57,7 +57,7 @@ export const projects: Record<Locale, Project[]> = {
       image: projectSideTopImage,
       sector: "Offentlig sektor",
       year: "Prosjektbasert leveranse",
-      services: ["API-utvikling", "Frontend", "Integrasjoner", "Rådgivning"],
+      expertise: ["API-utvikling", "Frontend", "Integrasjoner", "Rådgivning"],
       challenge:
         "Flere systemer måtte kommunisere bedre for å redusere manuelt arbeid og gi brukerne en mer sammenhengende digital opplevelse.",
       solution:
@@ -79,7 +79,7 @@ export const projects: Record<Locale, Project[]> = {
       image: projectSideBottomImage,
       sector: "Industri / tjenesteyting",
       year: "Moderniseringsprosjekt",
-      services: [
+      expertise: [
         "Teknisk rådgivning",
         "Frontend",
         "Backend",
@@ -109,7 +109,7 @@ export const projects: Record<Locale, Project[]> = {
       image: projectMainImage,
       sector: "Public sector / education",
       year: "Long-term collaboration",
-      services: [
+      expertise: [
         "System development",
         "Integrations",
         "Architecture",
@@ -136,7 +136,7 @@ export const projects: Record<Locale, Project[]> = {
       image: projectSideTopImage,
       sector: "Public sector",
       year: "Project delivery",
-      services: ["API development", "Frontend", "Integrations", "Consulting"],
+      expertise: ["API development", "Frontend", "Integrations", "Consulting"],
       challenge:
         "Several systems needed to communicate better to reduce manual work and create a more coherent digital user experience.",
       solution:
@@ -158,7 +158,7 @@ export const projects: Record<Locale, Project[]> = {
       image: projectSideBottomImage,
       sector: "Industry / services",
       year: "Modernization project",
-      services: [
+      expertise: [
         "Technical consulting",
         "Frontend",
         "Backend",

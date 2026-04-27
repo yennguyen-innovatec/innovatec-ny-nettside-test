@@ -2,14 +2,14 @@ import { Container } from "@/components/layout/container";
 
 type ExpertiseListProps = {
   title: string;
-  services: {
+  expertise: {
     id: string;
     title: string;
     description: string;
   }[];
 };
 
-export function ExpertiseList({ title, services }: ExpertiseListProps) {
+export function ExpertiseList({ title, expertise }: ExpertiseListProps) {
   return (
     <section className="pb-16 md:pb-24">
       <Container>
@@ -20,7 +20,7 @@ export function ExpertiseList({ title, services }: ExpertiseListProps) {
         </div>
 
         <div className="grid gap-6 md:grid-cols-2">
-          {services.map((service) => (
+          {expertise.map((service) => (
             <article
               key={service.id}
               id={service.id}

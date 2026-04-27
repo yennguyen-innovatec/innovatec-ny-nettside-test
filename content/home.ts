@@ -14,7 +14,7 @@ type HomeContent = {
     primaryCta: { label: string; href: string };
     secondaryCta: { label: string; href: string };
   };
-  intro: {
+  intro?: {
     title: string;
     description: string;
   };
@@ -53,6 +53,7 @@ export const homeContent: Record<Locale, HomeContent> = {
     projects: {
       title: "Våre prosjekter",
       ctaLabel: "Flere prosjekter",
+      items: [],
     },
     careers: {
       title: "Jobb hos oss",
@@ -88,6 +89,7 @@ export const homeContent: Record<Locale, HomeContent> = {
     projects: {
       title: "Our projects",
       ctaLabel: "More projects",
+      items: [],
     },
     careers: {
       title: "Careers",

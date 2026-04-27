@@ -5,23 +5,27 @@ type SimplePage = {
   description: string;
 };
 
-type ExpertisePage = SimplePage & {
-  servicesTitle: string;
-  services: {
+type ExpertisePage = {
+  title: string;
+  description: string;
+  expertiseTitle: string;
+  expertise?: {
     title: string;
     description: string;
   }[];
 };
 
-type ProjectsPage = SimplePage & {
+type ProjectsPage = {
   sectionTitle: string;
   sectionCta?: string;
-  projects: {
+  projects?: {
     client: string;
     title: string;
     description: string;
   }[];
-  ctaLabel: string;
+  ctaLabel?: string;
+  title: string;
+  description: string;
 };
 
 type CareersPage = SimplePage & {
@@ -39,9 +43,6 @@ type AboutPage = {
 
   storyTitle: string;
   storyText: string;
-
-  servicesTitle: string;
-  services: string[];
 
   ctaTitle: string;
   ctaText: string;
@@ -85,13 +86,13 @@ export const ExpertisePageContent: Record<Locale, ExpertisePage> = {
     title: "Hva vi gjør",
     description:
       "Vi kombinerer vår ekspertise innen teknologi, design og strategisk forretningsutvikling for å levere digitale produkter og tjenester som hjelper kundene med å nå ambisjonene sine, både nå og i fremtiden.",
-    servicesTitle: "Tjenester",
+    expertiseTitle: "Tjenester",
   },
   en: {
     title: "What we do",
     description:
       "We combine expertise in technology, design, and strategic business development to deliver digital products and services that help our clients achieve their ambitions, both now and in the future.",
-    servicesTitle: "Services",
+    expertiseTitle: "Services",
   },
 };
 

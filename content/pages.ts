@@ -21,6 +21,7 @@ type ProjectsPage = SimplePage & {
     title: string;
     description: string;
   }[];
+  ctaLabel: string;
 };
 
 type CareersPage = SimplePage & {

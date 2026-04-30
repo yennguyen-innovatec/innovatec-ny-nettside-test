@@ -43,7 +43,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
               <h2>{locale === "en" ? "Follow us" : "Følg oss"}</h2>
 
               <a
-                href="https://www.linkedin.com/company/innovatec/"
+                href="https://www.linkedin.com/company/innovatec---innovative-technologies-as"
                 target="_blank"
                 rel="noopener noreferrer"
               >

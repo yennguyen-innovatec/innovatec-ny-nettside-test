@@ -64,31 +64,31 @@ export const ExpertisePageContent: Record<
     expertiseTitle: "Service areas",
     expertise: [
       {
-        id: "architecture-and-system-development",
+        id: "arkitektur-og-systemutvikling",
         title: "Architecture and system development",
         description:
           "We build robust and scalable digital solutions founded on strong technical architecture. From concept and analysis to implementation and further development, we help organizations create modern systems that are easier to maintain, evolve, and grow over time.",
       },
       {
-        id: "artificial-intelligence-and-data",
+        id: "kunstig-intelligens-og-data",
         title: "Artificial intelligence and data",
         description:
           "We help organizations make better use of data and explore the practical value of artificial intelligence. This includes everything from data foundations and insight generation to analytics, automation, and AI-supported workflows that create measurable business value.",
       },
       {
-        id: "business-process-automation",
+        id: "automatisering-av-forretningsprosesser",
         title: "Business process automation",
         description:
           "We identify manual and time-consuming processes and improve them through smart automation. The goal is to reduce friction, improve quality, and free up time so teams can focus on the work that creates the most value.",
       },
       {
-        id: "quality-assurance-and-testing",
+        id: "kvalitetssikring-og-test",
         title: "Quality assurance and testing",
         description:
           "We improve the quality of digital products through structured quality assurance, test strategy, and execution. We work with functional testing, test automation, and quality practices throughout the development lifecycle to reduce risk and ensure stable deliveries.",
       },
       {
-        id: "technical-due-diligence",
+        id: "teknisk-due-diligence",
         title: "Technical due diligence",
         description:
           "We perform technical assessments that support decision-making in investments, acquisitions, modernization efforts, and major strategic initiatives. We evaluate architecture, codebase, team capabilities, risks, and technical maturity to provide a realistic picture of the current state and the road ahead.",

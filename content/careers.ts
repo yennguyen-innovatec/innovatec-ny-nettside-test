@@ -94,8 +94,8 @@ export const careersContent: Record<
       title: "Vil du bli en del av Innovatec?",
       description:
         "Vi er et miljø av engasjerte, nysgjerrige og lærevillige teknologer der vi gjerne deler kunnskap, lærer av og hjelper hverandre.",
-      buttonLabel: "Kontakt oss",
-      buttonHref: "/kontakt-oss",
+      buttonLabel: "Ledige stillinger",
+      buttonHref: "/jobb-hos-oss#ledige-stillinger",
     },
   },
 
@@ -161,8 +161,8 @@ export const careersContent: Record<
       title: "Want to become part of Innovatec?",
       description:
         "We are a community of engaged, curious and eager-to-learn technologists who gladly share knowledge, learn from one another and help each other.",
-      buttonLabel: "Contact us",
-      buttonHref: "/kontakt-oss",
+      buttonLabel: "Open positions",
+      buttonHref: "/jobb-hos-oss#ledige-stillinger",
     },
   },
 };

@@ -88,12 +88,13 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             href={`/${locale}`}
             className="logo-text relative z-[60] shrink-0"
             aria-label="Innovatec home"
+            scroll
           >
             Innovatec
           </Link>
 
           <nav
-            className="hidden items-center gap-2 md:flex"
+            className="hidden items-center gap-2 md:flex "
             aria-label="Primary navigation"
           >
             {navigation.map((item) => {
@@ -103,6 +104,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
                 <Link
                   key={item.href}
                   href={item.href}
+                  scroll={true}
                   className={`rounded-full px-4 py-2 text-lg font-heading transition ${
                     active
                       ? "underline"

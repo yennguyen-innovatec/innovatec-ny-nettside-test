@@ -7,7 +7,7 @@ type PageHeroProps = {
 
 export function PageHero({ title, description }: PageHeroProps) {
   return (
-    <section className="py-16 md:py-20">
+    <section className="py-16 md:py-20 scroll-mt-32">
       <Container>
         <div className="mx-auto max-w-3xl">
           <h1 className="text-4xl font-semibold md:text-5xl">{title}</h1>

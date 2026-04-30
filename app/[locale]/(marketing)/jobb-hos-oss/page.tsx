@@ -65,7 +65,7 @@ export default async function CareersPage({
         </Container>
       </section>
 
-      <section className="py-16">
+      <section id="ledige-stillinger" className="py-16">
         <Container>
           <div className="max-w-2xl">
             <h2 className="text-2xl font-semibold md:text-3xl">
@@ -116,22 +116,6 @@ export default async function CareersPage({
               sizes="100vw"
             />
           </div>
-        </Container>
-      </section>
-
-      <section className="py-20 text-center">
-        <Container>
-          <h2 className="text-3xl font-semibold">{content.block.title}</h2>
-          <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-black/70">
-            {content.block.description}
-          </p>
-
-          <Link
-            href={`/${locale}${content.block.buttonHref}`}
-            className="mt-8 inline-flex rounded-md bg-[var(--primary)] px-6 py-3 text-sm font-medium text-white transition hover:opacity-90"
-          >
-            {content.block.buttonLabel}
-          </Link>
         </Container>
       </section>
     </>

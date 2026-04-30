@@ -23,12 +23,6 @@ const iconMap = {
   "automatisering-av-forretningsprosesser": Workflow,
   "kvalitetssikring-og-test": CheckCircle,
   "teknisk-due-diligence": ShieldCheck,
-
-  "architecture-and-system-development": Code2,
-  "ai-and-data": Brain,
-  "business-process-automation": Workflow,
-  "quality-assurance-and-testing": CheckCircle,
-  "technical-due-diligence": ShieldCheck,
 };
 
 export function ExpertiseSection({
@@ -76,15 +70,16 @@ export function ExpertiseSection({
                   <Link
                     key={item.id}
                     href={`${cta.href}#${item.id}`}
+                    scroll={true}
                     className="
-                      inline-flex items-center gap-4 rounded-4xl px-10 py-3
-                      text-sm text-white shadow-md transition
+                      inline-flex items-center gap-4 rounded-4xl px-5 py-2 md:px-10 md:py-3
+                      text-xs md:text-base text-white shadow-md transition
                       bg-[linear-gradient(90deg,#07182d_0%,#2f67a0_100%)]
                       hover:translate-x-1
                     "
                   >
-                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-xl border border-white/20 bg-white/10">
-                      <Icon className="h-4 w-4" strokeWidth={2} />
+                    <span className="flex h-5 w-5 md:h-7 md:w-7 shrink-0 items-center justify-center rounded-xl border border-white/20 bg-white/10">
+                      <Icon className="h-3 w-3 md:h-4 md:w-4" strokeWidth={2} />
                     </span>
 
                     <span>{item.title}</span>
@@ -96,6 +91,7 @@ export function ExpertiseSection({
             <div className="flex justify-end">
               <Link
                 href={cta.href}
+                scroll={true}
                 className="
                   inline-flex rounded-xl
                   bg-[var(--primary)] px-4 py-2.5 text-sm text-white

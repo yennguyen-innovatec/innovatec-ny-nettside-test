@@ -24,7 +24,7 @@ export function ExpertiseList({ title, expertise }: ExpertiseListProps) {
             <article
               key={service.id}
               id={service.id}
-              className="rounded-2xl border border-black/10 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              className="scroll-mt-30 rounded-2xl border border-black/10 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
             >
               <h3 className="text-xl font-semibold text-[var(--primary)]">
                 {service.title}

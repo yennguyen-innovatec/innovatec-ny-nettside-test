@@ -109,7 +109,7 @@ export const expertiseHomeContent = {
       "Vi er et team av senior konsulenter med ekspertise innen teknologi, rammeverk, utvikling, test og dokumentasjon av løsninger for våre kunder.",
     cta: {
       label: "Hva vi gjør",
-      href: "/no/hva-vi-gjor",
+      href: "/hva-vi-gjor",
     },
     items: [
       {
@@ -141,27 +141,27 @@ export const expertiseHomeContent = {
       "We are a team of senior consultants with expertise in technology, frameworks, development, testing, and documentation of solutions for our clients.",
     cta: {
       label: "What we do",
-      href: "/en/what-we-do",
+      href: "/hva-vi-gjor",
     },
     items: [
       {
-        id: "architecture-and-system-development",
+        id: "arkitektur-og-systemutvikling",
         title: "Architecture and system development",
       },
       {
-        id: "ai-and-data",
+        id: "kunstig-intelligens-og-data",
         title: "Artificial intelligence and data",
       },
       {
-        id: "business-process-automation",
+        id: "automatisering-av-forretningsprosesser",
         title: "Business process automation",
       },
       {
-        id: "quality-assurance-and-testing",
+        id: "kvalitetssikring-og-test",
         title: "Quality assurance and testing",
       },
       {
-        id: "technical-due-diligence",
+        id: "teknisk-due-diligence",
         title: "Technical due diligence",
       },
     ],

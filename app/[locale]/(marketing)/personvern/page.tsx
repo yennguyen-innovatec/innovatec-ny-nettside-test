@@ -12,15 +12,19 @@ export default async function PrivacyPage({
 
   return (
     <section className="py-20">
-      <Container className="max-w-3xl space-y-8">
-        <h1 className="text-4xl font-bold">{content.title}</h1>
+      <Container>
+        <div className="mx-auto max-w-3xl space-y-8">
+          <h1 className="text-4xl font-semibold md:text-5xl mb-10">
+            {content.title}
+          </h1>
 
-        {content.sections.map((section, index) => (
-          <div key={index} className="space-y-2">
-            <h2 className="text-2xl font-semibold">{section.title}</h2>
-            <p>{section.text}</p>
-          </div>
-        ))}
+          {content.sections.map((section, index) => (
+            <div key={index} className="space-y-2">
+              <h2 className="text-2xl font-semibold">{section.title}</h2>
+              <p>{section.text}</p>
+            </div>
+          ))}
+        </div>
       </Container>
     </section>
   );

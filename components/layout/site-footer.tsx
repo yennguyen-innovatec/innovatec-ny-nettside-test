@@ -64,14 +64,12 @@ export function SiteFooter({ locale }: { locale: Locale }) {
               {copy.privacyLabel}
             </a>
 
-            <a
-              href="https://lovdata.no/dokument/NL/lov/2021-06-18-99"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href={`/${locale}/apenhetsloven`}
               className="block hover:underline"
             >
               {copy.transparencyLabel}
-            </a>
+            </Link>
             <a
               href="https://portal.miljofyrtarn.no/organizations/34759/data/publicStatistics"
               target="_blank"

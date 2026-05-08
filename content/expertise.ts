@@ -36,9 +36,10 @@ export const ExpertisePageContent: Record<
       },
       {
         id: "kunstig-intelligens-og-data",
+        title: "Kunstig intelligens og data",
         image: {
           src: image1,
-          alt: "Arkitektur og systemutvikling",
+          alt: "Kunstig intelligens og data",
         },
         description:
           "Vi hjelper virksomheter med å bruke data mer effektivt og utforske mulighetene innen kunstig intelligens. Det kan være alt fra datagrunnlag og innsikt til analyse, automatisering og AI-støttede arbeidsprosesser som skaper konkret verdi i organisasjonen.",
@@ -48,7 +49,7 @@ export const ExpertisePageContent: Record<
         title: "Automatisering av forretningsprosesser",
         image: {
           src: image1,
-          alt: "Arkitektur og systemutvikling",
+          alt: "Automatisering av forretningsprosesser",
         },
         description:
           "Vi identifiserer manuelle og tidkrevende prosesser og gjør dem mer effektive gjennom smart automatisering. Målet er å redusere friksjon, øke kvaliteten og frigjøre tid slik at virksomheten kan bruke ressursene sine der de skaper mest verdi.",
@@ -58,7 +59,7 @@ export const ExpertisePageContent: Record<
         title: "Kvalitetssikring og test",
         image: {
           src: image1,
-          alt: "Arkitektur og systemutvikling",
+          alt: "Kvalitetssikring og test",
         },
         description:
           "Vi bidrar til høyere kvalitet i digitale produkter gjennom strukturert kvalitetssikring, teststrategi og testgjennomføring. Vi jobber både med funksjonell testing, testautomatisering og kvalitet i utviklingsprosessen for å redusere risiko og sikre stabile leveranser.",

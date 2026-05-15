@@ -39,7 +39,7 @@ export const homeContent: Record<Locale, HomeContent> = {
       eyebrow: "Innovative Technologies",
       title: "Eksperter på sikker digitalisering",
       description:
-        "Innovatec er et konsulenthus med engasjerte spesialister som moderniserer komplekse softwaresystemer i samfunnskritiske virksomheter. Dette gjør vi ved hjelp av en kombinasjon av lang erfaring og moderne teknologi.",
+        "Innovatec er et konsulenthus med engasjerte spesialister som utvikler og moderniserer komplekse softwaresystemer i samfunnskritiske virksomheter. Dette gjør vi ved hjelp av en kombinasjon av lang erfaring og moderne teknologi.",
       primaryCta: {
         label: "Om oss",
         href: "/no/om-oss",
@@ -52,7 +52,7 @@ export const homeContent: Record<Locale, HomeContent> = {
 
     projects: {
       title: "Våre prosjekter",
-      ctaLabel: "Flere prosjekter",
+      ctaLabel: "Les mer",
       items: [],
     },
     careers: {
@@ -71,7 +71,7 @@ export const homeContent: Record<Locale, HomeContent> = {
       eyebrow: "Innovative Technologies",
       title: "Experts in secure digitalization",
       description:
-        "Innovatec is a consulting firm with dedicated specialists who modernize complex software systems in socially critical businesses. We do this by combining long experience and modern technology.",
+        "Innovatec is a consulting firm with dedicated specialists who develop and modernize complex software systems in socially critical businesses. We do this by combining long experience and modern technology.",
       primaryCta: {
         label: "About us",
         href: "/en/om-oss",
@@ -106,7 +106,7 @@ export const expertiseHomeContent = {
   no: {
     title: "Vår ekspertise",
     intro:
-      "Vi er et team av senior konsulenter med ekspertise innen teknologi, rammeverk, utvikling, test og dokumentasjon av løsninger for våre kunder.",
+      "Innovatec bistår virksomheter med å realisere verdien av teknologi gjennom automatisering, kunstig intelligens, systemutvikling og kvalitetssikring. Vi forener teknisk dybde med innsikt i forretnings- og brukerbehov for effektive, skalerbare og trygge løsninger.",
     cta: {
       label: "Hva vi gjør",
       href: "/hva-vi-gjor",

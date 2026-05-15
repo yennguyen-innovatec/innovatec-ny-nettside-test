@@ -72,7 +72,7 @@ export function ExpertiseSection({
                     href={`${cta.href}#${item.id}`}
                     scroll={true}
                     className="
-                      inline-flex items-center gap-4 rounded-4xl px-5 py-2 md:px-10 md:py-3
+                      flex  min-w-[320px] md:min-w-[420px] items-center gap-4 rounded-4xl px-5 py-2 md:px-10 md:py-3
                       text-xs md:text-base text-white shadow-md transition
                       bg-[linear-gradient(90deg,#07182d_0%,#2f67a0_100%)]
                       hover:translate-x-1
@@ -88,7 +88,7 @@ export function ExpertiseSection({
               })}
             </div>
 
-            <div className="flex justify-end">
+            {/* <div className="flex justify-end">
               <Link
                 href={cta.href}
                 scroll={true}
@@ -101,7 +101,7 @@ export function ExpertiseSection({
               >
                 {cta.label}
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>

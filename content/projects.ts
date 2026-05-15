@@ -23,10 +23,10 @@ export const projects: Record<Locale, Project[]> = {
   no: [
     {
       slug: "sikt-nvb",
-      client: "SIKT",
-      title: "Nasjonal vitnemålsdatabase",
+      client: "helsedirektoratet",
+      title: "Digitalt kontroll- og utbetalingssystem for helserefusjon",
       description:
-        "Videreutvikling og modernisering av løsninger som støtter trygg håndtering av vitnemål og utdanningsdata i kunnskapssektoren.",
+        "Løsningen automatiserer kontroll og utbetaling av refusjonskrav i helsesektoren, og bidrar til raskere oppgjør, høy kvalitet og korrekt forvaltning av offentlige midler. Innovatec står i samarbeid med kunden for design, utvikling og forvaltning av systemet.",
       image: projectMainImage,
       sector: "Offentlig sektor / utdanning",
       year: "Langsiktig samarbeid",
@@ -50,8 +50,8 @@ export const projects: Record<Locale, Project[]> = {
     },
     {
       slug: "digital-samhandling",
-      client: "Offentlig aktør",
-      title: "Digital samhandling og integrasjoner",
+      client: "Større privat virksomhet",
+      title: "Utvikling av KI tjeneste fra prototype til ferdig løsning",
       description:
         "Utvikling av digitale løsninger som gjør det enklere for ulike systemer og aktører å samarbeide effektivt.",
       image: projectSideTopImage,
@@ -72,8 +72,8 @@ export const projects: Record<Locale, Project[]> = {
     },
     {
       slug: "modernisering-av-fagsystem",
-      client: "Nordisk virksomhet",
-      title: "Modernisering av fagsystem",
+      client: "Norsk helsenett",
+      title: "Digital samhandling i legemiddelkjeden",
       description:
         "Teknisk modernisering av et eksisterende fagsystem med fokus på ytelse, struktur og fremtidig videreutvikling.",
       image: projectSideBottomImage,

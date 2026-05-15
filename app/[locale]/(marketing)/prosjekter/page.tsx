@@ -14,7 +14,7 @@ export default async function ProjectsPage({
 
   return (
     <>
-      <PageHero title={content.title} description={content.description} />
+      <PageHero title={content.title} description={content.longText} />
       <ProjectsGrid locale={locale} projects={projects[locale]} />
     </>
   );

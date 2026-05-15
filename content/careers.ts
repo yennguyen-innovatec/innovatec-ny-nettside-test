@@ -93,7 +93,7 @@ export const careersContent: Record<
     block: {
       title: "Vil du bli en del av Innovatec?",
       description:
-        "Vi er et miljø av engasjerte, nysgjerrige og lærevillige teknologer der vi gjerne deler kunnskap, lærer av og hjelper hverandre.",
+        "Det er menneskene hos oss som gjør forskjellen. I Innovatec møter du et inkluderende arbeidsmiljø preget av nysgjerrighet, samarbeid og et sterkt engasjement for teknologi og utvikling. Vi deler kunnskap, heier på hverandre og skaper et miljø hvor det er rom for både faglig og personlig vekst. Vi er alltid på utkikk etter dyktige mennesker som ønsker å utvikle seg sammen med oss. Hos Innovatec får du muligheten til å jobbe i et inspirerende og fremoverlent miljø, sammen med kollegaer som brenner for læring, innovasjon og gode løsninger.",
       buttonLabel: "Ledige stillinger",
       buttonHref: "/jobb-hos-oss#ledige-stillinger",
     },

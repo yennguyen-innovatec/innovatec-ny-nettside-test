@@ -26,6 +26,7 @@ type ProjectsPage = {
   ctaLabel?: string;
   title: string;
   description: string;
+  longText: string;
 };
 
 type CareersPage = SimplePage & {
@@ -100,16 +101,18 @@ export const projectsPageContent: Record<Locale, ProjectsPage> = {
   no: {
     title: "Våre prosjekter",
     description:
-      "Vi er engasjert i oppdrag for en rekke nordiske og internasjonale organisasjoner. Løsningene og tjenestene vi leverer bidrar til bærekraftig utvikling i sektorer som energi, industri, bank, forsikring, helse og offentlig sektor.",
+      "Vi utvikler og videreutvikler samfunnskritiske digitale løsninger som gjennom automatisering forenkler komplekse prosesser, styrker samhandling og sikrer effektiv forvaltning av data og tjenester. Våre prosjekter kombinerer moderne teknologi, robust arkitektur og dyp domeneforståelse for å skape løsninger med varig verdi.",
     sectionTitle: "Prosjekter",
-    sectionCta: "Flere prosjekter",
+    ctaLabel: "Les mer",
+    longText:
+      "Våre prosjekter spenner fra nasjonale løsninger innen helse og utdanning til komplekse plattformer for automatisering, samhandling og datadeling. Vi utvikler og forvalter samfunnskritiske systemer som håndterer store datamengder, avansert regelverk og sikre integrasjoner på tvers av sektorer. Gjennom moderne arkitektur, regelteknologi og interoperabilitet bidrar vi til mer effektive tjenester, høyere kvalitet og tryggere forvaltning av offentlige data. Felles for prosjektene er fokus på robusthet, skalerbarhet og løsninger som skaper varig verdi for både brukere og samfunn.",
   },
   en: {
     title: "Our projects",
     description:
       "We are engaged in assignments for a range of Nordic and international organizations. The solutions and services we deliver contribute to sustainable development in sectors such as energy, industry, banking, insurance, healthcare, and the public sector.",
     sectionTitle: "Projects",
-    sectionCta: "More projects",
+    ctaLabel: "Read more",
   },
 };
 

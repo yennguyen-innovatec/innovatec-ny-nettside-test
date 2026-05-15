@@ -76,7 +76,7 @@ function ProjectCard({
 export function ProjectsPreview({
   title,
   intro,
-  ctaLabel = "Flere prosjekter",
+  ctaLabel,
   ctaHref = "/prosjekter",
   projects,
   locale,

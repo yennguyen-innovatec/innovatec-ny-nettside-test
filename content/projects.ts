@@ -13,16 +13,13 @@ export type Project = {
   sector: string;
   year: string;
   expertise: string[];
-  challenge: string;
-  solution: string;
-  result: string;
-  highlights: string[];
+  detail: string;
 };
 
 export const projects: Record<Locale, Project[]> = {
   no: [
     {
-      slug: "sikt-nvb",
+      slug: "kuhr",
       client: "helsedirektoratet",
       title: "Digitalt kontroll- og utbetalingssystem for helserefusjon",
       description:
@@ -36,46 +33,64 @@ export const projects: Record<Locale, Project[]> = {
         "Arkitektur",
         "Forvaltning",
       ],
-      challenge:
-        "Kunnskapssektoren har behov for stabile, sikre og brukervennlige løsninger som håndterer store mengder utdanningsdata på tvers av aktører.",
-      solution:
-        "Innovatec bidrar med teknisk kompetanse innen utvikling, integrasjoner og arkitektur for å støtte videreutvikling av digitale tjenester knyttet til Nasjonal vitnemålsdatabase.",
-      result:
-        "Løsningen bidrar til mer effektiv dataflyt, bedre tilgjengelighet og tryggere håndtering av informasjon for brukere og organisasjoner i sektoren.",
-      highlights: [
-        "Moderne og vedlikeholdbare systemkomponenter",
-        "Sikre integrasjoner mellom sentrale tjenester",
-        "Fokus på stabilitet, skalerbarhet og brukervennlighet",
-      ],
+      detail: `
+      KUHR er et nasjonalt kontroll- og utbetalingssystem for helserefusjoner, utviklet for NAV IT
+      og Helsedirektoratet. Løsningen automatiserer kontroll og utbetaling av refusjonskrav i
+      helsesektoren, og bidrar til raskere oppgjør, høy kvalitet og korrekt forvaltning av offentlige
+      midler.
+      
+      Systemet behandler over 90 millioner regninger årlig og står for utbetaling av nær 30
+      milliarder kroner hvert år. Løsningen håndterer store transaksjonsvolumer på tvers av en
+      rekke fagområder, blant annet lege, poliklinikk, privat lab/radiologi, helsestasjon,
+      pasientreiser, fysioterapi, psykolog, kiropraktor, tannhelse, logoped, jordmor, ortoptist,
+      audiopedagog, tannpleier og rehabiliteringsinstitusjoner.
+      
+      Hele 97–98 % av alle refusjonskrav behandles automatisk gjennom en avansert regelmotor.
+      Samtidig støtter løsningen manuell saksbehandling, oppfølging og rapportering der det er
+      behov, og legger til rette for effektiv samhandling gjennom moderne API-er og integrasjoner.
+      
+      Innovatec har hatt ansvar for design, utvikling, videreutvikling og forvaltning av løsningen
+      siden 2002, i tett samarbeid med kunden. KUHR er bygget som en skalerbar og robust
+      plattform, tilpasset kontinuerlige endringer i regelverk, integrasjoner og brukerbehov.
+      `,
     },
     {
       slug: "digital-samhandling",
       client: "Større privat virksomhet",
       title: "Utvikling av KI tjeneste fra prototype til ferdig løsning",
       description:
-        "Utvikling av digitale løsninger som gjør det enklere for ulike systemer og aktører å samarbeide effektivt.",
+        "Innovatec bidrar med rådgivning og utvikling innen regelteknologi, og er en del av et tverrfaglig team som bygger fremtidens løsning for håndtering av vitnemål og kompetansebevis.",
       image: projectSideTopImage,
       sector: "Offentlig sektor",
       year: "Prosjektbasert leveranse",
       expertise: ["API-utvikling", "Frontend", "Integrasjoner", "Rådgivning"],
-      challenge:
-        "Flere systemer måtte kommunisere bedre for å redusere manuelt arbeid og gi brukerne en mer sammenhengende digital opplevelse.",
-      solution:
-        "Vi utviklet robuste integrasjoner og brukergrensesnitt som forenkler arbeidsflyt og gjør informasjon lettere tilgjengelig.",
-      result:
-        "Kunden fikk en mer effektiv digital plattform med bedre datakvalitet og mindre behov for manuell oppfølging.",
-      highlights: [
-        "Bedre samhandling mellom systemer",
-        "Redusert manuelt arbeid",
-        "Mer helhetlig brukeropplevelse",
-      ],
+      detail: `
+Nasjonal vitnemålsdatabase (NVB) sikrer at vitnemål og kompetansebevis fra videregående
+opplæring er korrekt registrert, validert og tilgjengelig for videre bruk. Løsningen brukes både
+av skoler for kvalitetssikring og av aktører som trenger pålitelig dokumentasjon, som for
+eksempel Samordna opptak.
+
+Som en del av infrastrukturen levert av Sikt, bidrar NVB til trygg og effektiv deling av
+utdanningsdata på tvers av sektoren.
+
+Dagens løsning moderniseres for å møte nye krav til fleksibilitet, vedlikehold og
+samhandling. Den nye plattformen legger til rette for enklere forvaltning av komplekst
+regelverk, blant annet gjennom et mer tilgjengelig regelspråk som også kan brukes av
+fagpersoner uten teknisk bakgrunn.
+
+Løsningen utvikles med moderne API-er, støtte for internasjonale standarder og en avansert
+regelmotor, og gjør det enklere å integrere, validere og dele vitnemålsdata på en sikker og
+effektiv måte.
+
+
+`,
     },
     {
       slug: "modernisering-av-fagsystem",
       client: "Norsk helsenett",
       title: "Digital samhandling i legemiddelkjeden",
       description:
-        "Teknisk modernisering av et eksisterende fagsystem med fokus på ytelse, struktur og fremtidig videreutvikling.",
+        "Løsningen er et godt eksempel på hvordan standardisering og digital samhandling kan styrke kvalitet, effektivitet og pasientsikkerhet i moderne helsetjenester.",
       image: projectSideBottomImage,
       sector: "Industri / tjenesteyting",
       year: "Moderniseringsprosjekt",
@@ -85,27 +100,31 @@ export const projects: Record<Locale, Project[]> = {
         "Backend",
         "Kvalitetssikring",
       ],
-      challenge:
-        "Et eldre system hadde blitt krevende å vedlikeholde og videreutvikle, samtidig som behovene fra brukerne økte.",
-      solution:
-        "Innovatec bidro med modernisering av kodebase, forbedret struktur og tydeligere teknisk arkitektur.",
-      result:
-        "Systemet ble enklere å forvalte, mer stabilt og bedre tilpasset videre utvikling.",
-      highlights: [
-        "Ryddigere teknisk arkitektur",
-        "Forbedret brukeropplevelse",
-        "Bedre grunnlag for videreutvikling",
-      ],
+      detail: `
+E-resept er en nasjonal løsning som muliggjør sikker og effektiv elektronisk formidling av
+resept- og legemiddelinformasjon. Løsningen knytter sammen hele verdikjeden – fra
+forskrivning til utlevering og økonomisk oppgjør – i ett helhetlig, digitalt forløp.
+
+Som en del av den nasjonale e-helseinfrastrukturen utviklet og forvaltet av Norsk Helsenett,
+bidrar e-resept til bedre samhandling, økt kvalitet og mer effektive helsetjenester.
+
+Innovatec bistår med rådgivning innen teknisk arkitektur og virksomhetsarkitektur, samt
+forvaltning av krav og meldingsstandarder i e-reseptens verdikjede. Arbeidet sikrer robuste
+løsninger som støtter kontinuerlig utvikling og samhandling på tvers av aktører i
+helsesektoren.
+
+
+`,
     },
   ],
 
   en: [
     {
-      slug: "sikt-nvb",
-      client: "SIKT",
-      title: "National Diploma Registry",
+      slug: "kuhr",
+      client: "The Norwegian Directorate of Health",
+      title: "Digital control and payment system for healthcare reimbursements",
       description:
-        "Development and modernization of solutions supporting secure handling of diplomas and education data in the knowledge sector.",
+        "The solution automates the control and payment of reimbursement claims in the healthcare sector and contributes to faster settlements, high quality and proper management of public funds. In collaboration with the client, Innovatec is responsible for the design, development and maintenance of the system.",
       image: projectMainImage,
       sector: "Public sector / education",
       year: "Long-term collaboration",
@@ -115,46 +134,64 @@ export const projects: Record<Locale, Project[]> = {
         "Architecture",
         "Maintenance",
       ],
-      challenge:
-        "The knowledge sector needs stable, secure and user-friendly solutions for handling large volumes of education data across organizations.",
-      solution:
-        "Innovatec contributes technical expertise in development, integrations and architecture to support digital services connected to the National Diploma Registry.",
-      result:
-        "The solution supports more efficient data flow, better availability and safer information handling for users and organizations.",
-      highlights: [
-        "Modern and maintainable system components",
-        "Secure integrations between key services",
-        "Focus on stability, scalability and usability",
-      ],
+      detail: `
+  KUHR is a national control and payment system for healthcare reimbursements, developed for NAV IT
+  and the Norwegian Directorate of Health. The solution automates the control and payment of reimbursement claims in
+  the healthcare sector and contributes to faster settlements, high quality and proper management of public
+  funds.
+  
+  The system processes more than 90 million claims annually and is responsible for payments of nearly
+  30 billion NOK every year. The solution handles large transaction volumes across a
+  range of professional areas, including general practitioners, outpatient clinics, private laboratories/radiology,
+  healthcare centres, patient travel, physiotherapy, psychology, chiropractic care, dental care,
+  speech therapy, midwifery, orthoptics, audiopedagogy, dental hygienists and rehabilitation institutions.
+  
+  As much as 97–98% of all reimbursement claims are processed automatically through an advanced rules engine.
+  At the same time, the solution supports manual case handling, follow-up and reporting where
+  needed, while enabling efficient collaboration through modern APIs and integrations.
+  
+  Innovatec has been responsible for the design, development, further development and maintenance of the solution
+  since 2002, in close collaboration with the client. KUHR is built as a scalable and robust
+  platform, adapted to continuous changes in regulations, integrations and user needs.
+  `,
     },
+
     {
-      slug: "digital-collaboration",
-      client: "Public sector client",
-      title: "Digital collaboration and integrations",
+      slug: "digital-samhandling",
+      client: "Large private enterprise",
+      title: "Development of an AI service from prototype to finished solution",
       description:
-        "Development of digital solutions that help systems and organizations collaborate more efficiently.",
+        "Innovatec contributes consulting and development within rule technology and is part of a multidisciplinary team building the future solution for handling diplomas and certificates of competence.",
       image: projectSideTopImage,
       sector: "Public sector",
-      year: "Project delivery",
+      year: "Project-based delivery",
       expertise: ["API development", "Frontend", "Integrations", "Consulting"],
-      challenge:
-        "Several systems needed to communicate better to reduce manual work and create a more coherent digital user experience.",
-      solution:
-        "We developed robust integrations and user interfaces that simplify workflows and make information more accessible.",
-      result:
-        "The client received a more efficient digital platform with improved data quality and less manual follow-up.",
-      highlights: [
-        "Improved system collaboration",
-        "Reduced manual work",
-        "More coherent user experience",
-      ],
+      detail: `
+  The National Diploma Registry (NVB) ensures that diplomas and certificates of competence from upper secondary
+  education are correctly registered, validated and made available for further use. The solution is used both
+  by schools for quality assurance and by organizations that require reliable documentation, such as
+  the Norwegian Universities and Colleges Admission Service.
+  
+  As part of the infrastructure delivered by Sikt, NVB contributes to secure and efficient sharing of
+  educational data across the sector.
+  
+  The current solution is being modernized to meet new requirements for flexibility, maintenance and
+  collaboration. The new platform enables simpler management of complex
+  regulations, including through a more accessible rules language that can also be used by
+  domain experts without a technical background.
+  
+  The solution is being developed with modern APIs, support for international standards and an advanced
+  rules engine, making it easier to integrate, validate and share diploma data in a secure and
+  efficient way.
+  `,
     },
+
     {
-      slug: "system-modernization",
-      client: "Nordic company",
-      title: "Modernization of business-critical system",
+      slug: "modernisering-av-fagsystem",
+      client: "Norwegian Health Network",
+      title: "Digital collaboration in the medication value chain",
       description:
-        "Technical modernization of an existing system with focus on performance, structure and future development.",
+        "The solution is a good example of how standardization and digital collaboration can strengthen quality, efficiency and patient safety in modern healthcare services.",
       image: projectSideBottomImage,
       sector: "Industry / services",
       year: "Modernization project",
@@ -164,17 +201,19 @@ export const projects: Record<Locale, Project[]> = {
         "Backend",
         "Quality assurance",
       ],
-      challenge:
-        "An older system had become difficult to maintain and extend, while user needs continued to grow.",
-      solution:
-        "Innovatec contributed to codebase modernization, improved structure and clearer technical architecture.",
-      result:
-        "The system became easier to maintain, more stable and better prepared for future development.",
-      highlights: [
-        "Cleaner technical architecture",
-        "Improved user experience",
-        "Better foundation for further development",
-      ],
+      detail: `
+  E-prescription is a national solution that enables secure and efficient electronic communication of
+  prescription and medication information. The solution connects the entire value chain – from
+  prescribing to dispensing and financial settlement – in one complete digital process.
+  
+  As part of the national e-health infrastructure developed and managed by the Norwegian Health Network,
+  e-prescription contributes to better collaboration, increased quality and more efficient healthcare services.
+  
+  Innovatec provides consulting within technical architecture and enterprise architecture, as well as
+  management of requirements and messaging standards in the e-prescription value chain. The work ensures robust
+  solutions that support continuous development and collaboration across stakeholders in
+  the healthcare sector.
+  `,
     },
   ],
 };

@@ -73,7 +73,7 @@ export const aboutPageContent: Record<Locale, AboutPage> = {
 
     storyTitle: "Who we are",
     storyText:
-      "Innovatec combines expertise in technology, design, and strategic business development to deliver solutions that create value. We work closely with our clients to understand their needs and build solutions that last.",
+      "Innovatec combines expertise in technology, design, and strategic business development to deliver solutions that create value. We work closely with our clients to understand their needs and build solutions with long-term value.",
 
     ctaTitle: "Want to work with us?",
     ctaText: "We are always looking for talented people.",
@@ -110,9 +110,13 @@ export const projectsPageContent: Record<Locale, ProjectsPage> = {
   en: {
     title: "Our projects",
     description:
-      "We are engaged in assignments for a range of Nordic and international organizations. The solutions and services we deliver contribute to sustainable development in sectors such as energy, industry, banking, insurance, healthcare, and the public sector.",
+      "We develop and continuously improve mission-critical digital solutions that simplify complex processes through automation, strengthen collaboration, and ensure efficient management of data and services. Our projects combine modern technology, robust architecture, and deep domain expertise to create solutions with lasting value.",
+
     sectionTitle: "Projects",
     ctaLabel: "Read more",
+
+    longText:
+      "Our projects range from national solutions within healthcare and education to complex platforms for automation, collaboration, and data sharing. We develop and maintain mission-critical systems that handle large volumes of data, advanced regulations, and secure integrations across sectors. Through modern architecture, rule technology, and interoperability, we contribute to more efficient services, higher quality, and safer management of public data. A shared characteristic across our projects is a strong focus on robustness, scalability, and solutions that create lasting value for both users and society.",
   },
 };
 

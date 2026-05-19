@@ -134,38 +134,7 @@ export default async function ProjectDetailPage({
             </div>
 
             <div className="space-y-10">
-              <ProjectTextBlock
-                title={locale === "no" ? "Utfordring" : "Challenge"}
-                text={project.challenge}
-              />
-
-              <ProjectTextBlock
-                title={locale === "no" ? "Løsning" : "Solution"}
-                text={project.solution}
-              />
-
-              <ProjectTextBlock
-                title={locale === "no" ? "Resultat" : "Result"}
-                text={project.result}
-              />
-
-              <div className="rounded-[18px] bg-neutral-50 p-6 md:p-8">
-                <h3 className="text-xl font-semibold text-neutral-950">
-                  {locale === "no" ? "Nøkkelpunkter" : "Key highlights"}
-                </h3>
-
-                <ul className="mt-5 space-y-4">
-                  {project.highlights.map((item) => (
-                    <li key={item} className="flex gap-3 text-neutral-700">
-                      <CheckCircle2
-                        size={20}
-                        className="mt-0.5 shrink-0 text-[var(--primary)]"
-                      />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <ProjectTextBlock text={project.detail} />
             </div>
           </div>
         </Container>
@@ -174,11 +143,17 @@ export default async function ProjectDetailPage({
   );
 }
 
-function ProjectTextBlock({ title, text }: { title: string; text: string }) {
+function ProjectTextBlock({ text }: { text: string }) {
   return (
-    <div>
-      <h3 className="text-xl font-semibold text-neutral-950">{title}</h3>
-      <p className="mt-3 leading-8 text-neutral-700">{text}</p>
+    <div className="space-y-6">
+      {text
+        .trim()
+        .split(/\n\s*\n/)
+        .map((paragraph, index) => (
+          <p key={index} className="leading-8 text-neutral-700">
+            {paragraph}
+          </p>
+        ))}
     </div>
   );
 }

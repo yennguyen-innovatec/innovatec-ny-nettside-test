@@ -138,7 +138,7 @@ export const expertiseHomeContent = {
   en: {
     title: "Our expertise",
     intro:
-      "We are a team of senior consultants with expertise in technology, frameworks, development, testing, and documentation of solutions for our clients.",
+      "Innovatec helps organizations realize the value of technology through automation, artificial intelligence, system development, and quality assurance. We combine deep technical expertise with insight into business and user needs to deliver efficient, scalable, and secure solutions.",
     cta: {
       label: "What we do",
       href: "/hva-vi-gjor",

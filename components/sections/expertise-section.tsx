@@ -43,10 +43,20 @@ export function ExpertiseSection({
             src={expertiseBg}
             alt="Expertise background"
             className="h-auto w-full"
+            style={{ transform: "scaleX(-1)" }}
             priority
           />
 
-          <div className="mt-3 space-y-2 xl:absolute xl:right-[5%] xl:top-[8%] xl:mt-0 xl:w-[48%]">
+          <div
+            className="
+          mt-8
+          text-[var(--foreground)]
+          
+          md:absolute md:bottom-8 md:right-8 md:z-10 md:w-[60%]
+          md:text-white
+          md:p-8 
+        "
+          >
             <div
               className="
                 rounded-2xl
@@ -63,45 +73,31 @@ export function ExpertiseSection({
             </div>
 
             <div className="my-8 flex flex-col items-start gap-4">
-              {items.map((item) => {
+                {items.map((item) => {
                 const Icon = iconMap[item.id as keyof typeof iconMap] ?? Code2;
 
-                return (
-                  <Link
-                    key={item.id}
-                    href={`${cta.href}#${item.id}`}
-                    scroll={true}
-                    className="
+                  return (
+                    <Link
+                      key={item.id}
+                      href={`${cta.href}#${item.id}`}
+                      scroll={true}
+                      className="
                       flex  min-w-[320px] md:min-w-[420px] items-center gap-4 rounded-4xl px-5 py-2 md:px-10 md:py-3
-                      text-xs md:text-base text-white shadow-md transition
-                      bg-[linear-gradient(90deg,#07182d_0%,#2f67a0_100%)]
-                      hover:translate-x-1
-                    "
-                  >
-                    <span className="flex h-5 w-5 md:h-7 md:w-7 shrink-0 items-center justify-center rounded-xl border border-white/20 bg-white/10">
+          text-xs md:text-base text-white shadow-md transition
+          bg-[linear-gradient(90deg,#07182d_0%,#2f67a0_100%)]
+          hover:translate-x-1
+        "
+                    >
+                      <span className="flex h-5 w-5 md:h-7 md:w-7 shrink-0 items-center justify-center rounded-xl border border-white/20 bg-white/10">
                       <Icon className="h-3 w-3 md:h-4 md:w-4" strokeWidth={2} />
-                    </span>
+                      </span>
 
-                    <span>{item.title}</span>
-                  </Link>
-                );
-              })}
+                      <span>{item.title}</span>
+                    </Link>
+                  );
+                })}
+              </div>
             </div>
-
-            {/* <div className="flex justify-end">
-              <Link
-                href={cta.href}
-                scroll={true}
-                className="
-                  inline-flex rounded-xl
-                  bg-[var(--primary)] px-4 py-2.5 text-sm text-white
-                  sm:px-5 sm:py-3
-                  lg:bg-white/90 lg:text-[var(--primary)]
-                "
-              >
-                {cta.label}
-              </Link>
-            </div> */}
           </div>
         </div>
       </Container>

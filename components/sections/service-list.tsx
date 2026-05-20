@@ -2,17 +2,17 @@ import Image from "next/image";
 import { Container } from "@/components/layout/container";
 import expertiseBg from "@/public/expertise-bg.jpg";
 import { Code2, Brain, Workflow, CheckCircle, ShieldCheck } from "lucide-react";
-
+import type { StaticImageData } from "next/image";
 type ExpertiseListProps = {
   title: string;
   expertise: {
     id: string;
     title: string;
     description: string;
-    image?: {
-      src: string;
-      alt: string;
-    };
+  image?: {
+  src: StaticImageData;
+  alt: string;
+};
   }[];
 };
 

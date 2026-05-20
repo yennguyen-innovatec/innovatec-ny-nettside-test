@@ -1,10 +1,15 @@
 import { Locale } from "@/lib/i18n";
 import image1 from "@/public/expertise-bg.jpg";
-
+import type { StaticImageData } from "next/image";
 export type ExpertiseItem = {
   id: string;
   title: string;
   description: string;
+
+  image?: {
+    src: StaticImageData;
+    alt: string;
+  };
 };
 
 export const ExpertisePageContent: Record<

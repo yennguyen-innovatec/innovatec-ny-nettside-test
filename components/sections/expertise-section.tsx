@@ -96,7 +96,6 @@ export function ExpertiseSection({
                     </Link>
                   );
                 })}
-              </div>
             </div>
           </div>
         </div>

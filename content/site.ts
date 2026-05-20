@@ -23,6 +23,13 @@ export const siteCopy: Record<
     transparencyLabel: string;
     contactLabel: string;
     rights: string;
+     transparencyPage: {
+      title: string;
+      description: string;
+      body: string;
+      readMorePrefix: string;
+      lovdataLabel: string;
+    };
   }
 > = {
   no: {

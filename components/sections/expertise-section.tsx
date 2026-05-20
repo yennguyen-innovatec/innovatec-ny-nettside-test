@@ -43,7 +43,6 @@ export function ExpertiseSection({
             src={expertiseBg}
             alt="Expertise background"
             className="h-auto w-full"
-            style={{ transform: "scaleX(-1)" }}
             priority
           />
 

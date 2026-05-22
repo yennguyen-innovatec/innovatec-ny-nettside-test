@@ -32,7 +32,7 @@ export function ExpertiseSection({
   cta,
 }: ExpertiseSectionProps) {
   return (
-    <section className="py-12">
+    <section className="py-10">
       <Container>
         <h2 className="mb-8 text-center text-3xl font-medium tracking-tight text-[var(--primary)] md:mb-12 md:text-5xl">
           {title}
@@ -48,12 +48,12 @@ export function ExpertiseSection({
 
           <div
             className="
-          mt-8
+          mt-2
           text-[var(--foreground)]
           
-          md:absolute md:bottom-8 md:right-8 md:z-10 md:w-[60%]
-          md:text-white
-        
+          lg:absolute lg:bottom-2 lg:right-2 lg:z-10 lg:w-[60%]
+          lg:text-white
+          lg:p-2
         "
           >
             <div
@@ -71,7 +71,7 @@ export function ExpertiseSection({
               {intro}
             </div>
 
-            <div className="my-8 flex flex-col items-start gap-4">
+            <div className="my-4 flex flex-col items-start gap-4">
               {items.map((item) => {
                 const Icon = iconMap[item.id as keyof typeof iconMap] ?? Code2;
 

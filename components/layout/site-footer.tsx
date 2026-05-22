@@ -57,7 +57,6 @@ export function SiteFooter({ locale }: { locale: Locale }) {
           <div className="content-center space-y-2 underline hover:text-[var(--primary)]/90 text-xl text-[var(--primary)] [font-family:var(--font-heading)] font-bold mb-5 ">
             <a
               href={`/${locale}/personvern`}
-              target="_blank"
               rel="noopener noreferrer"
               className="block hover:underline"
             >

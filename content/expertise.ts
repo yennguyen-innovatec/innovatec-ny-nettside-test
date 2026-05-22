@@ -79,6 +79,16 @@ export const ExpertisePageContent: Record<
         description:
           "Vi gjennomfører tekniske vurderinger som gir beslutningsstøtte ved investeringer, oppkjøp, modernisering eller større strategiske valg. Vi ser på arkitektur, kodebase, team, risiko og teknologiske forutsetninger for å gi et realistisk bilde av dagens situasjon og veien videre.",
       },
+      {
+        id: "sikkerhet",
+        title: "Sikkerhet",
+        image: {
+          src: image1,
+          alt: "Sikkerhet",
+        },
+        description:
+          "Vi hjelper virksomheter med å bygge sikre digitale løsninger gjennom god arkitektur, risikovurdering og beste praksis for utvikling. Sikkerhet er en integrert del av prosessen, fra design og implementering til drift og videreutvikling.",
+      },
     ],
   },
 
@@ -138,6 +148,16 @@ export const ExpertisePageContent: Record<
         },
         description:
           "We perform technical assessments that support decision-making in investments, acquisitions, modernization efforts, and major strategic initiatives. We evaluate architecture, codebase, team capabilities, risks, and technical maturity to provide a realistic picture of the current state and the road ahead.",
+      },
+      {
+        id: "security",
+        title: "Security",
+        image: {
+          src: image1,
+          alt: "Security",
+        },
+        description:
+          "We help organizations build secure digital solutions through strong architecture, risk assessment, and best practices in software development. Security is integrated throughout the process, from design and implementation to operation and continuous improvement.",
       },
     ],
   },

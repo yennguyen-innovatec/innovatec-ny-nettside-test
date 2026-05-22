@@ -54,12 +54,14 @@ export default async function AboutPage({
 
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             {expertiseContent.expertise.map((service) => (
-              <article
+              <Link
                 key={service.id}
+                href={`/${locale}/hva-vi-gjor#${service.id}`}
+                scroll={true}
                 className="rounded-[10px] bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
               >
                 <h3 className="text-lg font-semibold">{service.title}</h3>
-              </article>
+              </Link>
             ))}
           </div>
         </Container>

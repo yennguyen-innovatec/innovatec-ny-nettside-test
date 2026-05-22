@@ -132,6 +132,10 @@ export const expertiseHomeContent = {
         id: "teknisk-due-diligence",
         title: "Teknisk due diligence",
       },
+      {
+        id: "sikkerhet",
+        title: "Sikkerhet",
+      },
     ],
   },
 
@@ -163,6 +167,10 @@ export const expertiseHomeContent = {
       {
         id: "teknisk-due-diligence",
         title: "Technical due diligence",
+      },
+      {
+        id: "sikkerhet",
+        title: "Security",
       },
     ],
   },

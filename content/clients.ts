@@ -4,6 +4,7 @@ import helfoLogo from "@/public/clients-logo/helfo-logo.png";
 import navLogo from "@/public/clients-logo/nav-logo.jpg";
 import siktLogo from "@/public/clients-logo/sikt-logo.png";
 import hdirLogo from "@/public/clients-logo/hdir-logo.png";
+import nhnLogo from "@/public/clients-logo/nhn.png";
 
 export const clientsSectionContent: Record<
   Locale,
@@ -27,6 +28,11 @@ export const clientsSectionContent: Record<
         name: "Helsedirektoratet",
         src: hdirLogo,
       },
+      {
+        id: "nhn",
+        name: "Norsk helsenett",
+        src: nhnLogo,
+      },
     ],
   },
   en: {
@@ -39,6 +45,11 @@ export const clientsSectionContent: Record<
         id: "hdir",
         name: "Helsedirektoratet",
         src: hdirLogo,
+      },
+      {
+        id: "nhn",
+        name: "Norsk helsenett",
+        src: nhnLogo,
       },
     ],
   },

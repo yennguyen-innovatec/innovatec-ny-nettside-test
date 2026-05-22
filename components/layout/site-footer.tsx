@@ -69,19 +69,13 @@ export function SiteFooter({ locale }: { locale: Locale }) {
             >
               {copy.transparencyLabel}
             </Link>
-            <a
-              href="https://portal.miljofyrtarn.no/organizations/34759/data/publicStatistics"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-block"
-            >
+            <Link href={`/${locale}/miljofyrtarn`}>
               <Image
                 src={miljoImg}
-                alt="Miljøfyrtårn sertifisering"
-                width={240}
-                priority
+                alt="Miljøfyrtårn"
+                className="h-auto w-auto"
               />
-            </a>
+            </Link>
           </div>
         </div>
 

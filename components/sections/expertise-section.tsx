@@ -51,7 +51,7 @@ export function ExpertiseSection({
           mt-8
           text-[var(--foreground)]
           
-          md:absolute md:bottom-8 md:right-8 md:z-10 md:w-[80%]
+          md:absolute md:bottom-8 md:right-8 md:z-10 md:w-[60%]
           md:text-white
         
         "

@@ -16,6 +16,6 @@ export function getNavigation(locale: Locale) {
     { label: "Hva vi gjør", href: "/no/hva-vi-gjor" },
     { label: "Prosjekter", href: "/no/prosjekter" },
     { label: "Jobb hos oss", href: "/no/jobb-hos-oss" },
-    { label: "Kontakt oss", href: "/no/kontakt-oss" },
+    { label: "Kontakt", href: "/no/kontakt-oss" },
   ];
 }

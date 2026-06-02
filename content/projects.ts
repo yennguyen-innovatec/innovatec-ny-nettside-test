@@ -56,7 +56,7 @@ export const projects: Record<Locale, Project[]> = {
     },
     {
       slug: "digital-samhandling",
-      client: "Større privat virksomhet",
+      client: "Privat virksomhet",
       title: "Utvikling av KI tjeneste fra prototype til ferdig løsning",
       description:
         "Innovatec bidrar med rådgivning og utvikling innen regelteknologi, og er en del av et tverrfaglig team som bygger fremtidens løsning for håndtering av vitnemål og kompetansebevis.",

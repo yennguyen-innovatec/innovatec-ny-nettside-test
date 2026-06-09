@@ -6,7 +6,7 @@ type Project = {
   slug: string;
   client: string;
   title: string;
-  description?: string;
+  description?: string | string[];
   image: StaticImageData;
 };
 

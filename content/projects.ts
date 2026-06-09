@@ -119,9 +119,9 @@ helsesektoren.
     {
       slug: "digital-samhandling",
       client: "Privat virksomhet",
-      title: "Utvikling av KI tjeneste fra prototype til ferdig løsning",
+      title: "Utvikling av KI-tjeneste fra prototype til ferdig løsning",
       description:
-        "Innovatec bidrar med rådgivning og utvikling innen regelteknologi, og er en del av et tverrfaglig team som bygger fremtidens løsning for håndtering av vitnemål og kompetansebevis.",
+        "Fra en tidlig prototype til en robust og produksjonsklar KI-løsning bistår vi kunden gjennom hele utviklingsløpet. Målet er å omforme gode idéer til sikre, brukervennlige og skalerbare tjenester som skaper verdi.",
       image: projectSideTopImage,
       sector: "Offentlig sektor",
       year: "Prosjektbasert leveranse",
@@ -133,22 +133,9 @@ helsesektoren.
         "Automatisering",
       ],
       detail: `
-Nasjonal vitnemålsdatabase (NVB) sikrer at vitnemål og kompetansebevis fra videregående
-opplæring er korrekt registrert, validert og tilgjengelig for videre bruk. Løsningen brukes både
-av skoler for kvalitetssikring og av aktører som trenger pålitelig dokumentasjon, som for
-eksempel Samordna opptak.
-
-Som en del av infrastrukturen levert av Sikt, bidrar NVB til trygg og effektiv deling av
-utdanningsdata på tvers av sektoren.
-
-Dagens løsning moderniseres for å møte nye krav til fleksibilitet, vedlikehold og
-samhandling. Den nye plattformen legger til rette for enklere forvaltning av komplekst
-regelverk, blant annet gjennom et mer tilgjengelig regelspråk som også kan brukes av
-fagpersoner uten teknisk bakgrunn.
-
-Løsningen utvikles med moderne API-er, støtte for internasjonale standarder og en avansert
-regelmotor, og gjør det enklere å integrere, validere og dele vitnemålsdata på en sikker og
-effektiv måte.
+Prosessen tar utgangspunkt i kundens egenutviklede proof of concept (POC), som demonstrerer potensialet i en ny KI-basert tjeneste. Målet er å videreutvikle en ide eller et konsept til en robust løsning som kan tas i bruk i ordinær drift.
+Sammen med kunden analyserer vi behov, målgrupper og bruksområder, og utarbeider en kravspesifikasjon som sikrer at både funksjonelle og ikke-funksjonelle krav blir ivaretatt. Deretter videreutvikles konseptet til en prototype hvor brukeropplevelse, arbeidsflyter og samspillet mellom mennesker og KI testes og forbedres.
+Parallelt gjennomføres vurderinger knyttet til personvern, informasjonssikkerhet og etterlevelse av relevante regelverk. Vi bidrar også med arkitekturarbeid som legger til rette for integrasjoner, skalerbarhet, drift og videreutvikling. Resultatet er en helhetlig og produksjonsklar løsning som er teknisk robust, trygg å bruke og tilpasset virksomhetens behov og målsettinger.
 
 
 `,

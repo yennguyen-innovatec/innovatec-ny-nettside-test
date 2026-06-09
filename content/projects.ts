@@ -56,33 +56,34 @@ export const projects: Record<Locale, Project[]> = {
       `,
     },
     {
-      slug: "sikt",
-      client: "sikt",
-      title: "NVB – modernisering av nasjonal vitnemålsdatabase",
+      slug: "digital-samhandling",
+      client: "Privat virksomhet",
+      title: "Utvikling av KI-tjeneste fra prototype til ferdig løsning",
       description:
-        "Innovatec bidrar med rådgivning og utvikling innen regelteknologi, og er en del av et tverrfaglig team som bygger fremtidens løsning for håndtering av vitnemål og kompetansebevis.",
+        "Fra en tidlig prototype til en robust og produksjonsklar KI-løsning bistår vi kunden gjennom hele utviklingsløpet. Målet er å omforme gode idéer til sikre, brukervennlige og skalerbare tjenester som skaper verdi.",
       image: projectSideTopImage,
-      sector: "Offentlig sektor/Utdanning",
+      sector: "Private sektor",
       year: "Prosjektbasert leveranse",
       expertise: [
-        "API-utvikling",
+        "Kunstig intelligens",
         "Frontend",
         "Integrasjoner",
         "Rådgivning",
-        "Automatisering",
+        "Brukeropplevelse",
+        "Sikkerhet",
+        "Personvern",
       ],
       detail: `
-Nasjonal vitnemålsdatabase (NVB) er den sentrale løsningen for registrering, validering og deling av vitnemål og kompetansebevis fra videregående opplæring. Løsningen er en viktig del av infrastrukturen for sikker håndtering av utdanningsdata i Norge.
+Prosessen tar utgangspunkt i kundens egenutviklede proof of concept (POC), som demonstrerer potensialet i en ny KI-basert tjeneste. Målet er å videreutvikle en ide eller et konsept til en robust løsning som kan tas i bruk i ordinær drift.
 
-NVB moderniseres for å møte nye krav til fleksibilitet, integrasjon og forvaltning. Den nye plattformen bygger på moderne arkitektur, internasjonale standarder og en avansert regelmotor som gjør det enklere å validere, dele og forvalte vitnemålsdata.
+Sammen med kunden analyserer vi behov, målgrupper og bruksområder, og utarbeider en kravspesifikasjon som sikrer at både funksjonelle og ikke-funksjonelle krav blir ivaretatt. Deretter videreutvikles konseptet til en prototype hvor brukeropplevelse, arbeidsflyter og samspillet mellom mennesker og KI testes og forbedres.
 
-Innovatec har hatt en sentral rolle i moderniseringsarbeidet, med ansvar innen arkitektur, systemutvikling og prosjektgjennomføring. Arbeidet omfatter blant annet utvikling av ny datamodell basert på European Learning Model (ELMv3), etablering av tilgangsstyring, migreringsstrategi, testarbeid og innføring av smidige arbeidsprosesser.
-
-Gjennom tett samarbeid med prosjekteier og øvrige fagmiljøer er Innovatec med på å etablere en robust og fremtidsrettet løsning for håndtering av vitnemål og kompetansebevis.
+Parallelt gjennomføres vurderinger knyttet til personvern, informasjonssikkerhet og etterlevelse av relevante regelverk. Vi bidrar også med arkitekturarbeid som legger til rette for integrasjoner, skalerbarhet, drift og videreutvikling. Resultatet er en helhetlig og produksjonsklar løsning som er teknisk robust, trygg å bruke og tilpasset virksomhetens behov og målsettinger.
 
 
 `,
     },
+
     {
       slug: "modernisering-av-fagsystem",
       client: "Norsk helsenett",
@@ -117,29 +118,30 @@ helsesektoren.
 `,
     },
     {
-      slug: "digital-samhandling",
-      client: "Privat virksomhet",
-      title: "Utvikling av KI-tjeneste fra prototype til ferdig løsning",
+      slug: "sikt",
+      client: "sikt",
+      title: "NVB – modernisering av nasjonal vitnemålsdatabase",
       description:
-        "Fra en tidlig prototype til en robust og produksjonsklar KI-løsning bistår vi kunden gjennom hele utviklingsløpet. Målet er å omforme gode idéer til sikre, brukervennlige og skalerbare tjenester som skaper verdi.",
+        "Innovatec bidrar med rådgivning og utvikling innen regelteknologi, og er en del av et tverrfaglig team som bygger fremtidens løsning for håndtering av vitnemål og kompetansebevis.",
       image: projectSideTopImage,
-      sector: "Private sektor",
+      sector: "Offentlig sektor/Utdanning",
       year: "Prosjektbasert leveranse",
       expertise: [
-        "Kunstig intelligens",
+        "API-utvikling",
         "Frontend",
         "Integrasjoner",
         "Rådgivning",
-        "Brukeropplevelse",
-        "Sikkerhet",
-        "Personvern",
+        "Automatisering",
+        "Arkitektur",
       ],
       detail: `
-Prosessen tar utgangspunkt i kundens egenutviklede proof of concept (POC), som demonstrerer potensialet i en ny KI-basert tjeneste. Målet er å videreutvikle en ide eller et konsept til en robust løsning som kan tas i bruk i ordinær drift.
+Nasjonal vitnemålsdatabase (NVB) er den sentrale løsningen for registrering, validering og deling av vitnemål og kompetansebevis fra videregående opplæring. Løsningen er en viktig del av infrastrukturen for sikker håndtering av utdanningsdata i Norge.
 
-Sammen med kunden analyserer vi behov, målgrupper og bruksområder, og utarbeider en kravspesifikasjon som sikrer at både funksjonelle og ikke-funksjonelle krav blir ivaretatt. Deretter videreutvikles konseptet til en prototype hvor brukeropplevelse, arbeidsflyter og samspillet mellom mennesker og KI testes og forbedres.
+NVB moderniseres for å møte nye krav til fleksibilitet, integrasjon og forvaltning. Den nye plattformen bygger på moderne arkitektur, internasjonale standarder og en avansert regelmotor som gjør det enklere å validere, dele og forvalte vitnemålsdata.
 
-Parallelt gjennomføres vurderinger knyttet til personvern, informasjonssikkerhet og etterlevelse av relevante regelverk. Vi bidrar også med arkitekturarbeid som legger til rette for integrasjoner, skalerbarhet, drift og videreutvikling. Resultatet er en helhetlig og produksjonsklar løsning som er teknisk robust, trygg å bruke og tilpasset virksomhetens behov og målsettinger.
+Innovatec har hatt en sentral rolle i moderniseringsarbeidet, med ansvar innen arkitektur, systemutvikling og prosjektgjennomføring. Arbeidet omfatter blant annet utvikling av ny datamodell basert på European Learning Model (ELMv3), etablering av tilgangsstyring, migreringsstrategi, testarbeid og innføring av smidige arbeidsprosesser.
+
+Gjennom tett samarbeid med prosjekteier og øvrige fagmiljøer er Innovatec med på å etablere en robust og fremtidsrettet løsning for håndtering av vitnemål og kompetansebevis.
 
 
 `,

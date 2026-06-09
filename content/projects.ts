@@ -134,7 +134,9 @@ helsesektoren.
       ],
       detail: `
 Prosessen tar utgangspunkt i kundens egenutviklede proof of concept (POC), som demonstrerer potensialet i en ny KI-basert tjeneste. Målet er å videreutvikle en ide eller et konsept til en robust løsning som kan tas i bruk i ordinær drift.
+
 Sammen med kunden analyserer vi behov, målgrupper og bruksområder, og utarbeider en kravspesifikasjon som sikrer at både funksjonelle og ikke-funksjonelle krav blir ivaretatt. Deretter videreutvikles konseptet til en prototype hvor brukeropplevelse, arbeidsflyter og samspillet mellom mennesker og KI testes og forbedres.
+
 Parallelt gjennomføres vurderinger knyttet til personvern, informasjonssikkerhet og etterlevelse av relevante regelverk. Vi bidrar også med arkitekturarbeid som legger til rette for integrasjoner, skalerbarhet, drift og videreutvikling. Resultatet er en helhetlig og produksjonsklar løsning som er teknisk robust, trygg å bruke og tilpasset virksomhetens behov og målsettinger.
 
 

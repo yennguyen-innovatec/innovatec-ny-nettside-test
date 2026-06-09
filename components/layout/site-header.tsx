@@ -69,7 +69,15 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
 
     return pathname === href || pathname.startsWith(`${href}/`);
   };
+  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    const homePath = `/${locale}`;
 
+    if (pathname === homePath) {
+      e.preventDefault();
+      setOpen(false);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
   return (
     <>
       <header
@@ -88,7 +96,8 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             href={`/${locale}`}
             className="logo-text relative z-[60] shrink-0"
             aria-label="Innovatec home"
-            scroll
+            scroll={true}
+            onClick={handleLogoClick}
           >
             Innovatec
           </Link>

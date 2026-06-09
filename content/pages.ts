@@ -58,11 +58,11 @@ export const aboutPageContent: Record<Locale, AboutPage> = {
 
     storyTitle: "Hvem vi er",
     storyText:
-      "Innovatec kombinerer ekspertise innen teknologi, design og strategisk forretningsutvikling for å levere løsninger som skaper verdi. Vi jobber tett med kundene våre for å forstå behov og bygge løsninger som varer over tid.",
-
+      "Innovatec er et konsulenthus med engasjerte spesialister som utvikler og moderniserer komplekse softwaresystemer i samfunnskritiske virksomheter. Dette gjør vi ved hjelp av en kombinasjon av lang erfaring og moderne teknologi.",
     ctaTitle: "Vil du jobbe med oss?",
-    ctaText: "Vi er alltid på utkikk etter dyktige folk.",
-    ctaLabel: "Se stillinger",
+    ctaText:
+      "Det er menneskene hos oss som gjør forskjellen. I Innovatec møter du et inkluderende arbeidsmiljø preget av nysgjerrighet, samarbeid og et sterkt engasjement for teknologi og utvikling.",
+    ctaLabel: "Ledig stillinger",
     ctaHref: "/jobb-hos-oss",
   },
 

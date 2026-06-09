@@ -19,14 +19,14 @@ export default async function AboutPage({
 
   return (
     <>
-      <PageHero title={content.title} description={content.description} />
+      {/* <PageHero title={content.title} description={content.description} /> */}
 
       <section className="py-16">
         <Container className="grid items-center gap-10 md:grid-cols-2">
           <div>
-            <h2 className="text-2xl font-semibold md:text-3xl">
+            <h1 className="text-4xl font-semibold md:text-5xl">
               {content.storyTitle}
-            </h2>
+            </h1>
             <p className="mt-4 text-base leading-7 text-black/70">
               {content.storyText}
             </p>

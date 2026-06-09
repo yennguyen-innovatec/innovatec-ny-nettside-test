@@ -2,6 +2,8 @@ import { Locale } from "@/lib/i18n";
 import projectMainImage from "@/public/projects/project-main.jpg";
 import projectSideTopImage from "@/public/projects/project-side-top.jpg";
 import projectSideBottomImage from "@/public/projects/project-side-bottom.jpg";
+import project3 from "@/public/projects/project3.jpg";
+
 import { StaticImageData } from "next/image";
 
 export type Project = {
@@ -54,6 +56,67 @@ export const projects: Record<Locale, Project[]> = {
       `,
     },
     {
+      slug: "sikt",
+      client: "sikt",
+      title: "NVB – modernisering av nasjonal vitnemålsdatabase",
+      description:
+        "Innovatec bidrar med rådgivning og utvikling innen regelteknologi, og er en del av et tverrfaglig team som bygger fremtidens løsning for håndtering av vitnemål og kompetansebevis.",
+      image: projectSideTopImage,
+      sector: "Offentlig sektor/Utdanning",
+      year: "Prosjektbasert leveranse",
+      expertise: [
+        "API-utvikling",
+        "Frontend",
+        "Integrasjoner",
+        "Rådgivning",
+        "Automatisering",
+      ],
+      detail: `
+Nasjonal vitnemålsdatabase (NVB) er den sentrale løsningen for registrering, validering og deling av vitnemål og kompetansebevis fra videregående opplæring. Løsningen er en viktig del av infrastrukturen for sikker håndtering av utdanningsdata i Norge.
+
+NVB moderniseres for å møte nye krav til fleksibilitet, integrasjon og forvaltning. Den nye plattformen bygger på moderne arkitektur, internasjonale standarder og en avansert regelmotor som gjør det enklere å validere, dele og forvalte vitnemålsdata.
+
+Innovatec har hatt en sentral rolle i moderniseringsarbeidet, med ansvar innen arkitektur, systemutvikling og prosjektgjennomføring. Arbeidet omfatter blant annet utvikling av ny datamodell basert på European Learning Model (ELMv3), etablering av tilgangsstyring, migreringsstrategi, testarbeid og innføring av smidige arbeidsprosesser.
+
+Gjennom tett samarbeid med prosjekteier og øvrige fagmiljøer er Innovatec med på å etablere en robust og fremtidsrettet løsning for håndtering av vitnemål og kompetansebevis.
+
+
+`,
+    },
+    {
+      slug: "modernisering-av-fagsystem",
+      client: "Norsk helsenett",
+      title: "Digital samhandling i legemiddelkjeden",
+      description:
+        "Løsningen er et godt eksempel på hvordan standardisering og digital samhandling kan styrke kvalitet, effektivitet og pasientsikkerhet i moderne helsetjenester.",
+      image: project3,
+      sector: "Offentlig sektor",
+      year: "Prosjektoppdrag",
+      expertise: [
+        "Teknisk rådgivning",
+        "Arkitektur",
+        "Integrasjoner",
+        "Standardisering",
+        "Datamodeling",
+        "Kvalitetssikring",
+      ],
+      detail: `
+E-resept er en nasjonal løsning som muliggjør sikker og effektiv elektronisk formidling av
+resept- og legemiddelinformasjon. Løsningen knytter sammen hele verdikjeden – fra
+forskrivning til utlevering og økonomisk oppgjør – i ett helhetlig, digitalt forløp.
+
+Som en del av den nasjonale e-helseinfrastrukturen utviklet og forvaltet av Norsk Helsenett,
+bidrar e-resept til bedre samhandling, økt kvalitet og mer effektive helsetjenester.
+
+Innovatec bistår med rådgivning innen teknisk arkitektur og virksomhetsarkitektur, samt
+forvaltning av krav og meldingsstandarder i e-reseptens verdikjede. Arbeidet sikrer robuste
+løsninger som støtter kontinuerlig utvikling og samhandling på tvers av aktører i
+helsesektoren.
+
+
+`,
+    },
+    {
       slug: "digital-samhandling",
       client: "Privat virksomhet",
       title: "Utvikling av KI tjeneste fra prototype til ferdig løsning",
@@ -86,39 +149,6 @@ fagpersoner uten teknisk bakgrunn.
 Løsningen utvikles med moderne API-er, støtte for internasjonale standarder og en avansert
 regelmotor, og gjør det enklere å integrere, validere og dele vitnemålsdata på en sikker og
 effektiv måte.
-
-
-`,
-    },
-    {
-      slug: "modernisering-av-fagsystem",
-      client: "Norsk helsenett",
-      title: "Digital samhandling i legemiddelkjeden",
-      description:
-        "Løsningen er et godt eksempel på hvordan standardisering og digital samhandling kan styrke kvalitet, effektivitet og pasientsikkerhet i moderne helsetjenester.",
-      image: projectSideBottomImage,
-      sector: "Offentlig sektor",
-      year: "Prosjektoppdrag",
-      expertise: [
-        "Teknisk rådgivning",
-        "Arkitektur",
-        "Integrasjoner",
-        "Standardisering",
-        "Datamodeling",
-        "Kvalitetssikring",
-      ],
-      detail: `
-E-resept er en nasjonal løsning som muliggjør sikker og effektiv elektronisk formidling av
-resept- og legemiddelinformasjon. Løsningen knytter sammen hele verdikjeden – fra
-forskrivning til utlevering og økonomisk oppgjør – i ett helhetlig, digitalt forløp.
-
-Som en del av den nasjonale e-helseinfrastrukturen utviklet og forvaltet av Norsk Helsenett,
-bidrar e-resept til bedre samhandling, økt kvalitet og mer effektive helsetjenester.
-
-Innovatec bistår med rådgivning innen teknisk arkitektur og virksomhetsarkitektur, samt
-forvaltning av krav og meldingsstandarder i e-reseptens verdikjede. Arbeidet sikrer robuste
-løsninger som støtter kontinuerlig utvikling og samhandling på tvers av aktører i
-helsesektoren.
 
 
 `,

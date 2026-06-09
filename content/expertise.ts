@@ -62,8 +62,11 @@ export const ExpertisePageContent: Record<
           src: image3,
           alt: "Automatisering av forretningsprosesser",
         },
-        description:
-          "Vi identifiserer manuelle og tidkrevende prosesser og gjør dem mer effektive gjennom smart automatisering. Målet er å redusere friksjon, øke kvaliteten og frigjøre tid slik at virksomheten kan bruke ressursene sine der de skaper mest verdi.",
+        description: [
+          "Vi identifiserer manuelle og tidkrevende prosesser og gjør dem mer effektive gjennom smart automatisering. Dette spenner fra tradisjonelle regelbaserte systemer til moderne KI-drevne løsninger. Regelbaserte verktøy er pålitelige og forutsigbare og egner seg godt for strukturerte og repetitive oppgaver. De kan imidlertid bli utilstrekkelige når prosessene krever skjønn eller håndtering av ustrukturert informasjon.",
+
+          "Moderne KI- og dataløsninger fyller dette gapet ved å gjenkjenne mønstre i store datamengder, tolke ustrukturert input og forutsi fremtidige hendelser. I motsetning til regelbaserte systemer kan disse modellene forbedre seg over tid.",
+        ],
       },
       {
         id: "kvalitetssikring-og-test",
@@ -72,8 +75,11 @@ export const ExpertisePageContent: Record<
           src: image4,
           alt: "Kvalitetssikring og test",
         },
-        description:
+        description: [
           "Vi bidrar til høyere kvalitet i digitale produkter gjennom strukturert kvalitetssikring, teststrategi og testgjennomføring. Vi jobber både med funksjonell testing, testautomatisering og kvalitet i utviklingsprosessen for å redusere risiko og sikre stabile leveranser.",
+
+          "Kombinasjonen av testautomatisering, strukturert data governance og automatisert test data management (TDM) gir utviklingsteam det de trenger for å levere programvare raskere, tryggere og med høyere kvalitet.",
+        ],
       },
       {
         id: "teknisk-due-diligence",
@@ -93,7 +99,7 @@ export const ExpertisePageContent: Record<
           alt: "Sikkerhet",
         },
         description:
-          "Vi hjelper virksomheter med å bygge sikre digitale løsninger gjennom god arkitektur, risikovurdering og beste praksis for utvikling. Sikkerhet er en integrert del av prosessen, fra design og implementering til drift og videreutvikling.",
+          "Vi hjelper virksomheter med å bygge sikre digitale løsninger gjennom god arkitektur, risikovurdering og beste praksis for utvikling. Sikkerhet er en integrert del av prosessen, fra design og implementering til drift og videreutvikling. Et utviklerteam der alle har grunnleggende sikkerhetskompetanse er ikke bare en teknisk ressurs, det er et strategisk fortrinn.",
       },
     ],
   },

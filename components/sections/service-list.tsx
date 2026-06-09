@@ -8,11 +8,11 @@ type ExpertiseListProps = {
   expertise: {
     id: string;
     title: string;
-    description: string;
-  image?: {
-  src: StaticImageData;
-  alt: string;
-};
+    description: string | string[];
+    image?: {
+      src: StaticImageData;
+      alt: string;
+    };
   }[];
 };
 
@@ -65,9 +65,15 @@ export function ExpertiseList({ title, expertise }: ExpertiseListProps) {
                     </h3>
                   </div>
 
-                  <p className="mt-4 text-sm leading-7 text-black/70 md:text-base">
-                    {service.description}
-                  </p>
+                  {Array.isArray(service.description) ? (
+                    <div className="space-y-4">
+                      {service.description.map((paragraph) => (
+                        <p key={paragraph}>{paragraph}</p>
+                      ))}
+                    </div>
+                  ) : (
+                    <p>{service.description}</p>
+                  )}
                 </div>
               </article>
             );

@@ -62,7 +62,7 @@ export const aboutPageContent: Record<Locale, AboutPage> = {
     ctaTitle: "Vil du jobbe med oss?",
     ctaText:
       "Det er menneskene hos oss som gjør forskjellen. I Innovatec møter du et inkluderende arbeidsmiljø preget av nysgjerrighet, samarbeid og et sterkt engasjement for teknologi og utvikling.",
-    ctaLabel: "Ledig stillinger",
+    ctaLabel: "Ledige stillinger",
     ctaHref: "/jobb-hos-oss",
   },
 

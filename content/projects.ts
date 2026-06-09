@@ -123,14 +123,16 @@ helsesektoren.
       description:
         "Fra en tidlig prototype til en robust og produksjonsklar KI-løsning bistår vi kunden gjennom hele utviklingsløpet. Målet er å omforme gode idéer til sikre, brukervennlige og skalerbare tjenester som skaper verdi.",
       image: projectSideTopImage,
-      sector: "Offentlig sektor",
+      sector: "Private sektor",
       year: "Prosjektbasert leveranse",
       expertise: [
-        "API-utvikling",
+        "Kunstig intelligens",
         "Frontend",
         "Integrasjoner",
         "Rådgivning",
-        "Automatisering",
+        "Brukeropplevelse",
+        "Sikkerhet",
+        "Personvern",
       ],
       detail: `
 Prosessen tar utgangspunkt i kundens egenutviklede proof of concept (POC), som demonstrerer potensialet i en ny KI-basert tjeneste. Målet er å videreutvikle en ide eller et konsept til en robust løsning som kan tas i bruk i ordinær drift.

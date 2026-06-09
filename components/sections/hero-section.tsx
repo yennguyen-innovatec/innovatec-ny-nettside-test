@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/layout/container";
-import heroBg from "@/public/hero-bg.jpg";
+import heroBg from "@/public/cover2.jpg";
 import Image from "next/image";
 
 type HeroSectionProps = {

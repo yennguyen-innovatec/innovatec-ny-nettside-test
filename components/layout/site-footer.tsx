@@ -63,19 +63,19 @@ export function SiteFooter({ locale }: { locale: Locale }) {
               {copy.privacyLabel}
             </a>
 
-            <Link
+            <a
               href={`/${locale}/apenhetsloven`}
               className="block hover:underline"
             >
               {copy.transparencyLabel}
-            </Link>
-            <Link href={`/${locale}/miljofyrtarn`}>
+            </a>
+            <a href={`/${locale}/miljofyrtarn`}>
               <Image
                 src={miljoImg}
                 alt="Miljøfyrtårn"
                 className="h-auto w-auto"
               />
-            </Link>
+            </a>
           </div>
         </div>
 

@@ -24,7 +24,7 @@ export const environmentContent: Record<
       "Våren 2023 startet vi arbeidet med å bli sertifisert som Miljøfyrtårn, og vi ble sertifisert i juni samme år.",
       "En del av Miljøfyrtårn-sertifiseringen handler om samspillet mellom virksomhet og samfunnet. Derfor inviteres kunder, samarbeidspartnere og andre interessenter til å gi innspill om hvordan klima- og miljøpåvirkningen av våre varer og tjenester kan forbedres.",
     ],
-    reportLabel: "Les vår Miljøfyrtårnrapport 2024",
+    reportLabel: "Les vår Miljøfyrtårnrapport 2025",
     reportHref:
       "https://portal.miljofyrtarn.no/organizations/34759/data/publicStatistics",
     policy: {
@@ -68,7 +68,7 @@ export const environmentContent: Record<
       "In spring 2023, we started the process of becoming certified as an Eco-Lighthouse company, and we were certified in June the same year.",
       "As part of the certification, customers, partners and other stakeholders are invited to provide input on how the climate and environmental impact of our services can be improved.",
     ],
-    reportLabel: "Read our Eco-Lighthouse report 2024",
+    reportLabel: "Read our Eco-Lighthouse report 2025",
     reportHref:
       "https://portal.miljofyrtarn.no/organizations/34759/data/publicStatistics",
     policy: {

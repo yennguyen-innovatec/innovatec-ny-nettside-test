@@ -54,6 +54,7 @@ export function ExpertiseSection({
           lg:absolute lg:bottom-2 lg:right-2 lg:z-10 lg:w-[60%]
           lg:text-white
           lg:p-2
+        
         "
           >
             <div
@@ -71,7 +72,7 @@ export function ExpertiseSection({
               {intro}
             </div>
 
-            <div className="my-4 flex flex-col items-start gap-4">
+            <div className="my-4 flex flex-col items-end gap-4 ">
               {items.map((item) => {
                 const Icon = iconMap[item.id as keyof typeof iconMap] ?? Code2;
 

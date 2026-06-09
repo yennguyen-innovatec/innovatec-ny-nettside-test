@@ -25,13 +25,14 @@ export const projects: Record<Locale, Project[]> = {
       description:
         "Løsningen automatiserer kontroll og utbetaling av refusjonskrav i helsesektoren, og bidrar til raskere oppgjør, høy kvalitet og korrekt forvaltning av offentlige midler. Innovatec står i samarbeid med kunden for design, utvikling og forvaltning av systemet.",
       image: projectMainImage,
-      sector: "Offentlig sektor / utdanning",
+      sector: "Offentlig sektor",
       year: "Langsiktig samarbeid",
       expertise: [
         "Systemutvikling",
         "Integrasjoner",
         "Arkitektur",
-        "Forvaltning",
+        "Sikkerhet",
+        "Automatisering",
       ],
       detail: `
       KUHR er et nasjonalt kontroll- og utbetalingssystem for helserefusjoner, utviklet for NAV IT
@@ -49,9 +50,7 @@ export const projects: Record<Locale, Project[]> = {
       Samtidig støtter løsningen manuell saksbehandling, oppfølging og rapportering der det er
       behov, og legger til rette for effektiv samhandling gjennom moderne API-er og integrasjoner.
       
-      Innovatec har hatt ansvar for design, utvikling, videreutvikling og forvaltning av løsningen
-      siden 2002, i tett samarbeid med kunden. KUHR er bygget som en skalerbar og robust
-      plattform, tilpasset kontinuerlige endringer i regelverk, integrasjoner og brukerbehov.
+      Innovatec har ansvar for design, utvikling, videreutvikling og forvaltning av løsningen i tett samarbeid med kunden. KUHR er bygget som en skalerbar og robust plattform, tilpasset kontinuerlige endringer i regelverk, integrasjoner og brukerbehov.
       `,
     },
     {
@@ -63,7 +62,13 @@ export const projects: Record<Locale, Project[]> = {
       image: projectSideTopImage,
       sector: "Offentlig sektor",
       year: "Prosjektbasert leveranse",
-      expertise: ["API-utvikling", "Frontend", "Integrasjoner", "Rådgivning"],
+      expertise: [
+        "API-utvikling",
+        "Frontend",
+        "Integrasjoner",
+        "Rådgivning",
+        "Automatisering",
+      ],
       detail: `
 Nasjonal vitnemålsdatabase (NVB) sikrer at vitnemål og kompetansebevis fra videregående
 opplæring er korrekt registrert, validert og tilgjengelig for videre bruk. Løsningen brukes både
@@ -92,12 +97,14 @@ effektiv måte.
       description:
         "Løsningen er et godt eksempel på hvordan standardisering og digital samhandling kan styrke kvalitet, effektivitet og pasientsikkerhet i moderne helsetjenester.",
       image: projectSideBottomImage,
-      sector: "Industri / tjenesteyting",
-      year: "Moderniseringsprosjekt",
+      sector: "Offentlig sektor",
+      year: "Prosjektoppdrag",
       expertise: [
         "Teknisk rådgivning",
-        "Frontend",
-        "Backend",
+        "Arkitektur",
+        "Integrasjoner",
+        "Standardisering",
+        "Datamodeling",
         "Kvalitetssikring",
       ],
       detail: `

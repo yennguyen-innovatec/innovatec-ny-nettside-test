@@ -99,16 +99,16 @@ export const ExpertisePageContent: Record<Locale, ExpertisePage> = {
 
 export const projectsPageContent: Record<Locale, ProjectsPage> = {
   no: {
-    title: "Våre prosjekter",
+    title: "Noen av våre prosjekter",
     description:
       "Vi utvikler og videreutvikler samfunnskritiske digitale løsninger som gjennom automatisering forenkler komplekse prosesser, styrker samhandling og sikrer effektiv forvaltning av data og tjenester. Våre prosjekter kombinerer moderne teknologi, robust arkitektur og dyp domeneforståelse for å skape løsninger med varig verdi.",
     sectionTitle: "Prosjekter",
     ctaLabel: "Les mer",
     longText:
-      "Våre prosjekter spenner fra nasjonale løsninger innen helse og utdanning til komplekse plattformer for automatisering, samhandling og datadeling. Vi utvikler og forvalter samfunnskritiske systemer som håndterer store datamengder, avansert regelverk og sikre integrasjoner på tvers av sektorer. Gjennom moderne arkitektur, regelteknologi og interoperabilitet bidrar vi til mer effektive tjenester, høyere kvalitet og tryggere forvaltning av offentlige data. Felles for prosjektene er fokus på robusthet, skalerbarhet og løsninger som skaper varig verdi for både brukere og samfunn.",
+      "Våre prosjekter spenner fra nasjonale løsninger innen helse og utdanning til komplekse plattformer for automatisering, samhandling og datadeling. Vi utvikler og forvalter samfunnskritiske systemer som håndterer store datamengder, avanserte regelverk og sikre integrasjoner på tvers av sektorer. Gjennom moderne arkitektur, teknologi og interoperabilitet bidrar vi til mer effektive tjenester, høyere kvalitet og tryggere forvaltning av data. Felles for prosjektene er fokus på robusthet, skalerbarhet og løsninger som skaper varig verdi for både brukere og samfunn.",
   },
   en: {
-    title: "Our projects",
+    title: "Some of our projects",
     description:
       "We develop and continuously improve mission-critical digital solutions that simplify complex processes through automation, strengthen collaboration, and ensure efficient management of data and services. Our projects combine modern technology, robust architecture, and deep domain expertise to create solutions with lasting value.",
 
@@ -116,7 +116,7 @@ export const projectsPageContent: Record<Locale, ProjectsPage> = {
     ctaLabel: "Read more",
 
     longText:
-      "Our projects range from national solutions within healthcare and education to complex platforms for automation, collaboration, and data sharing. We develop and maintain mission-critical systems that handle large volumes of data, advanced regulations, and secure integrations across sectors. Through modern architecture, rule technology, and interoperability, we contribute to more efficient services, higher quality, and safer management of public data. A shared characteristic across our projects is a strong focus on robustness, scalability, and solutions that create lasting value for both users and society.",
+      "Our projects range from national solutions in the healthcare and education sectors to complex platforms for automation, collaboration, and data sharing. We develop and maintain mission-critical systems that handle large volumes of data, complex regulatory requirements, and secure integrations across sectors. Through modern architecture, technology, and interoperability, we help organizations deliver more efficient services, improve quality, and ensure the secure management of data. What all our projects have in common is a strong focus on robustness, scalability, and solutions that create lasting value for both users and society.",
   },
 };
 

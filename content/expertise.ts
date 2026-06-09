@@ -1,5 +1,11 @@
 import { Locale } from "@/lib/i18n";
-import image1 from "@/public/expertise-bg.jpg";
+import image1 from "@/public/architecture.jpg";
+import image2 from "@/public/aidata.jpg";
+import image3 from "@/public/automation.jpg";
+import image4 from "@/public/qa.jpg";
+import image5 from "@/public/tech-due.jpg";
+import image6 from "@/public/security.jpg";
+
 import type { StaticImageData } from "next/image";
 export type ExpertiseItem = {
   id: string;
@@ -43,7 +49,7 @@ export const ExpertisePageContent: Record<
         id: "kunstig-intelligens-og-data",
         title: "Kunstig intelligens og data",
         image: {
-          src: image1,
+          src: image2,
           alt: "Kunstig intelligens og data",
         },
         description:
@@ -53,7 +59,7 @@ export const ExpertisePageContent: Record<
         id: "automatisering-av-forretningsprosesser",
         title: "Automatisering av forretningsprosesser",
         image: {
-          src: image1,
+          src: image3,
           alt: "Automatisering av forretningsprosesser",
         },
         description:
@@ -63,7 +69,7 @@ export const ExpertisePageContent: Record<
         id: "kvalitetssikring-og-test",
         title: "Kvalitetssikring og test",
         image: {
-          src: image1,
+          src: image4,
           alt: "Kvalitetssikring og test",
         },
         description:
@@ -73,7 +79,7 @@ export const ExpertisePageContent: Record<
         id: "teknisk-due-diligence",
         title: "Teknisk due diligence",
         image: {
-          src: image1,
+          src: image5,
           alt: "Arkitektur og systemutvikling",
         },
         description:
@@ -83,7 +89,7 @@ export const ExpertisePageContent: Record<
         id: "sikkerhet",
         title: "Sikkerhet",
         image: {
-          src: image1,
+          src: image6,
           alt: "Sikkerhet",
         },
         description:
@@ -113,7 +119,7 @@ export const ExpertisePageContent: Record<
         id: "kunstig-intelligens-og-data",
         title: "Artificial intelligence and data",
         image: {
-          src: image1,
+          src: image2,
           alt: "Arkitektur og systemutvikling",
         },
         description:
@@ -123,7 +129,7 @@ export const ExpertisePageContent: Record<
         id: "automatisering-av-forretningsprosesser",
         title: "Business process automation",
         image: {
-          src: image1,
+          src: image3,
           alt: "Arkitektur og systemutvikling",
         },
         description:
@@ -133,7 +139,7 @@ export const ExpertisePageContent: Record<
         id: "kvalitetssikring-og-test",
         title: "Quality assurance and testing",
         image: {
-          src: image1,
+          src: image4,
           alt: "Arkitektur og systemutvikling",
         },
         description:
@@ -143,7 +149,7 @@ export const ExpertisePageContent: Record<
         id: "teknisk-due-diligence",
         title: "Technical due diligence",
         image: {
-          src: image1,
+          src: image5,
           alt: "Arkitektur og systemutvikling",
         },
         description:
@@ -153,7 +159,7 @@ export const ExpertisePageContent: Record<
         id: "security",
         title: "Security",
         image: {
-          src: image1,
+          src: image6,
           alt: "Security",
         },
         description:

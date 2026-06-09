@@ -10,8 +10,7 @@ import type { StaticImageData } from "next/image";
 export type ExpertiseItem = {
   id: string;
   title: string;
-  description: string;
-
+  description: string | string[];
   image?: {
     src: StaticImageData;
     alt: string;

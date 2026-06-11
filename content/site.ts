@@ -4,7 +4,7 @@ export const siteConfig = {
   name: "Innovatec",
   legalName: "Innovatec - Innovative Technologies AS",
   url: "https://innovatec.net",
-  email: "jobb@innovatec.net",
+  email: "info@innovatec.net",
   phone: "+47 22 42 71 00",
   organizationNumber: "986 346 716",
   address: {
@@ -23,7 +23,7 @@ export const siteCopy: Record<
     transparencyLabel: string;
     contactLabel: string;
     rights: string;
-     transparencyPage: {
+    transparencyPage: {
       title: string;
       description: string;
       body: string;

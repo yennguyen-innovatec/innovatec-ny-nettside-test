@@ -60,7 +60,7 @@ export const projects: Record<Locale, Project[]> = {
       client: "Privat virksomhet",
       title: "Utvikling av KI-tjeneste fra prototype til ferdig løsning",
       description:
-        "Fra en tidlig prototype til en robust og produksjonsklar KI-løsning bistår vi kunden gjennom hele utviklingsløpet. Målet er å omforme gode idéer til sikre, brukervennlige og skalerbare tjenester som skaper verdi.",
+        "Vi bistår en av våre kunder med å ta en egenutviklet prototype videre til å bli en robust og produksjonsklar KI-løsning. Målet er å omforme gode idéer til sikre, brukervennlige og skalerbare tjenester som skaper verdi.",
       image: projectSideTopImage,
       sector: "Private sektor",
       year: "Prosjektbasert leveranse",
@@ -190,7 +190,7 @@ changes in regulations, integrations and user needs.
       client: "Private enterprise",
       title: "Development of an AI service from prototype to finished solution",
       description:
-        "From an early prototype to a robust and production-ready AI solution, we support the client throughout the entire development process. The goal is to turn strong ideas into secure, user-friendly and scalable services that create value.",
+        "We are assisting one of our customers in taking a self-developed prototype further into a robust and production-ready AI solution. The goal is to transform good ideas into secure, user-friendly and scalable services that create value.",
       image: projectSideTopImage,
       sector: "Private sector",
       year: "Project-based delivery",

@@ -102,7 +102,8 @@ export const aboutPageContent: Record<Locale, AboutPage> = {
     historyText:
       "Siden selskapet ble etablert i 2003 har vi utviklet og videreutviklet samfunnskritiske digitale løsninger for virksomheter med høye krav til kvalitet, stabilitet og sikkerhet. Gjennom automatisering og moderne teknologi bidrar vi til mer effektive arbeidsprosesser, bedre samhandling og trygg forvaltning av data og tjenester. Våre prosjekter bygger på robust arkitektur, solid domeneforståelse og løsninger som skaper varig verdi.",
 
-    methodologyTitle: "Hvordan vi jobber",
+    methodologyTitle:
+      "Vi benytter oss av moderne utviklingsmetodikk og rammeverk tilpasset oppgavene som skal løses.",
 
     methodologies: [
       {
@@ -215,8 +216,8 @@ export const aboutPageContent: Record<Locale, AboutPage> = {
     historyText:
       "Since the company was established in 2003, we have developed and modernized mission-critical digital solutions for organizations with high demands for quality, stability, and security. Through automation and modern technology, we help create more efficient workflows, better collaboration, and secure management of data and services. Our projects are built on robust architecture, deep domain expertise, and solutions that deliver lasting value.",
 
-    methodologyTitle: "How we work",
-
+    methodologyTitle:
+      "We use modern development methodologies and frameworks adapted to the tasks to be solved.",
     methodologies: [
       {
         title: "Agile Development",

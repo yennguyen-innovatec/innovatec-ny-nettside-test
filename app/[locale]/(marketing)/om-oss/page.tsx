@@ -54,6 +54,29 @@ export default async function AboutPage({
               {content.historyText}
             </p>
           </div>
+          <div className="mt-12">
+            <p className="mt-6 text-base leading-7 text-black/70 md:text-lg md:leading-8 text-center">
+              {content.methodologyTitle}
+            </p>
+
+            <div className="mt-8 grid gap-4 md:grid-cols-2">
+              {content.methodologies.map((method) => (
+                <div
+                  key={method.title}
+                  className="rounded-[10px] border border-black/10 bg-white p-5 shadow-sm"
+                >
+                  <p className="font-semibold">{method.title}</p>
+                  <p className="mt-2 text-sm leading-6 text-black/70">
+                    {method.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            <p className="mt-6 text-base leading-7 text-black/70 md:text-lg md:leading-8 text-center">
+              {content.methodologyFooter}
+            </p>
+          </div>
         </Container>
       </section>
       <section className="bg-neutral-50 py-16">

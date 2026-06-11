@@ -155,7 +155,7 @@ export default async function AboutPage({
             <div className="mt-10 space-y-6">
               {content.partners.map((partner) => (
                 <article
-                  key={partner.name}
+                  key={partner.image.alt}
                   className="rounded-[10px] border border-black/10 bg-white p-6 shadow-sm"
                 >
                   <Image

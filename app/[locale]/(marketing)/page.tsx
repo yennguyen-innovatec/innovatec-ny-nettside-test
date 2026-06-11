@@ -9,7 +9,7 @@ import { clientsSectionContent } from "@/content/clients";
 import { careersContent } from "@/content/careers";
 import { projects } from "@/content/projects";
 import { projectsPageContent } from "@/content/pages";
-
+import { EventBanner } from "@/components/sections/event-banner";
 import { Locale } from "@/lib/i18n";
 
 export default async function HomePage({
@@ -28,6 +28,8 @@ export default async function HomePage({
 
   return (
     <>
+      <EventBanner href={`/${locale}/eurostar-2026`} />
+
       <HeroSection {...home.hero} />
 
       <ProjectsPreview

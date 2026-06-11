@@ -25,7 +25,7 @@ export const contactPageContent: Record<
   no: {
     title: "Kontakt oss",
     description:
-      "Ta kontakt med oss for en uforpliktende prat om hvordan vi kan hjelpe med digitale løsninger, systemutvikling og rådgivning.",
+      "Vi hører gjerne fra deg. Ta kontakt for en uforpliktende samtale om dine behov og utfordringer.",
     companyLabel: "Selskap",
     phoneLabel: "Telefon",
     emailLabel: "E-post",
@@ -45,7 +45,7 @@ export const contactPageContent: Record<
   en: {
     title: "Contact us",
     description:
-      "Get in touch with us to discuss how we can help with digital solutions, system development, and technology consulting.",
+      "We would love to hear from you. Contact us for a no-obligation conversation about your needs and challenges.",
     companyLabel: "Company",
     phoneLabel: "Phone",
     emailLabel: "Email",

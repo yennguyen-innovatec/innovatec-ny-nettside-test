@@ -1,4 +1,7 @@
 import { Locale } from "@/lib/i18n";
+import imagePartner1 from "@/public/clients-logo/ibm-logo.png";
+import imagePartner2 from "@/public/clients-logo/icaria-logo.svg";
+import type { StaticImageData } from "next/image";
 
 type SimplePage = {
   title: string;
@@ -45,10 +48,40 @@ type AboutPage = {
   storyTitle: string;
   storyText: string;
 
+  historyTitle: string;
+  historyText: string;
+
+  methodologyTitle: string;
+  methodologies: {
+    title: string;
+    description: string;
+  }[];
+  methodologyFooter: string;
+
   ctaTitle: string;
   ctaText: string;
   ctaLabel: string;
   ctaHref: string;
+  deliveryTitle: string;
+  deliveryText: string;
+  deliveryModels: string[];
+  deliveryFooter: string;
+  deliveryCta: string;
+  sustainabilityTitle: string;
+  sustainabilityText: string;
+  partnersTitle: string;
+  partnersIntro: string;
+  partners: {
+    image: {
+      src: StaticImageData;
+      alt: string;
+    };
+    description: string;
+    areas?: {
+      title: string;
+      description: string;
+    }[];
+  }[];
 };
 export const aboutPageContent: Record<Locale, AboutPage> = {
   no: {
@@ -64,6 +97,104 @@ export const aboutPageContent: Record<Locale, AboutPage> = {
       "Det er menneskene hos oss som gjør forskjellen. I Innovatec møter du et inkluderende arbeidsmiljø preget av nysgjerrighet, samarbeid og et sterkt engasjement for teknologi og utvikling.",
     ctaLabel: "Ledige stillinger",
     ctaHref: "/jobb-hos-oss",
+    historyTitle: "Over 20 år med tillit og erfaring",
+
+    historyText:
+      "Siden selskapet ble etablert i 2003 har vi utviklet og videreutviklet samfunnskritiske digitale løsninger for virksomheter med høye krav til kvalitet, stabilitet og sikkerhet. Gjennom automatisering og moderne teknologi bidrar vi til mer effektive arbeidsprosesser, bedre samhandling og trygg forvaltning av data og tjenester. Våre prosjekter bygger på robust arkitektur, solid domeneforståelse og løsninger som skaper varig verdi.",
+
+    methodologyTitle: "Hvordan vi jobber",
+
+    methodologies: [
+      {
+        title: "Smidig utvikling (Agile)",
+        description:
+          "Iterativ utvikling i korte sprinter med løpende leveranser og tett kundedialog. Scrum og Kanban er de vanligste rammeverkene.",
+      },
+      {
+        title: "DevOps",
+        description:
+          "Kombinerer utvikling og drift gjennom automatiserte pipelines for bygging, testing og utrulling (CI/CD).",
+      },
+      {
+        title: "Mikrotjenester og sky",
+        description:
+          "Applikasjoner deles inn i små, uavhengige tjenester. Docker og Kubernetes brukes til containerisering og orkestrering.",
+      },
+      {
+        title: "Test-drevet utvikling (TDD)",
+        description:
+          "Tester skrives før koden, kombinert med kodegjennomganger for å sikre kvalitet og avdekke feil tidlig.",
+      },
+      {
+        title: "Infrastruktur som kode (IaC)",
+        description:
+          "Infrastruktur defineres og versjonskontrolleres som kode ved hjelp av verktøy som Terraform og Ansible.",
+      },
+    ],
+
+    methodologyFooter:
+      "Felles for alle metodikkene er vektleggingen av automatisering, rask tilbakemelding og kontinuerlig forbedring.",
+
+    deliveryTitle: "Hvordan vi leverer",
+
+    deliveryText:
+      "Ingen prosjekter eller kunder er like. Derfor er vi opptatt av å finne den samarbeidsformen som passer best til både oppgaven som skal løses og organisasjonen din.",
+
+    deliveryModels: [
+      "Prosjektleveranser med konsulenter som inngår i kundens team.",
+      "Komplette team med alle roller dekket.",
+      "Ekspertise ved behov, for eksempel en sparringspartner med dyp ekspertise innen et fagområde som bistår med å løse konkrete utfordringer og problemstillinger.",
+    ],
+
+    deliveryFooter:
+      "Vi tilbyr ulike kommersielle modeller tilpasset oppgavene som skal løses, fra tradisjonelle timebaserte modeller til fastpris for konkrete leveranser eller prosjekter. Uavhengig av om et prosjekt er kort eller langvarig, er vi opptatt av å levere kvalitet, god dokumentasjon og effektiv kompetanseoverføring både underveis og ved avsluttet oppdrag.",
+
+    deliveryCta:
+      "Har du et prosjekt du ønsker å diskutere med oss? Ta kontakt!",
+
+    sustainabilityTitle: "Våre verdier",
+
+    sustainabilityText:
+      "Innovatec har et sterkt fokus på samfunnsansvar, miljø og bærekraft. Dette realiseres gjennom vår sertifisering som Miljøfyrtårn, kontinuerlig arbeid med arbeidsmiljøet vårt, kompetansebygging, utvikling av talenter og mangfold på arbeidsplassen.",
+
+    partnersTitle: "Våre partnere",
+    partnersIntro:
+      "Vi er teknologinøytrale i møte med kunder og prosjekter. Vår filosofi er at oppgaven må defineres før de riktige teknologivalgene kan tas. For å understøtte disse valgene har vi kompetanse innen moderne utviklingsrammeverk, programmeringsspråk, plattformer og verktøy.",
+    partners: [
+      {
+        image: {
+          src: imagePartner1,
+          alt: "IBM",
+        },
+        description:
+          "Vi er partner av IBM og tilbyr spisskompetanse innen design, utvikling og implementering av deres plattform for automatisert beslutningsstøtte, IBM Operational Decision Manager.",
+      },
+      {
+        image: {
+          src: imagePartner2,
+          alt: "Icaria Technology",
+        },
+        description:
+          "Vi er partner med Icaria Technology, en ledende leverandør innen sine fagområder. Vi bistår med behovskartlegging, design og implementering av automatiserte løsninger innen:",
+        areas: [
+          {
+            title: "Test data management",
+            description:
+              "Dataene som testere og automatiserte tester trenger, når de trenger dem og så ofte de trenger dem.",
+          },
+          {
+            title: "Data governance",
+            description:
+              "Sikrer konsistens og integritet til forretningskritisk informasjon som er lagret i ulike databaser.",
+          },
+          {
+            title: "Right to be forgotten",
+            description:
+              "Blokkering og sletting av personopplysninger i produksjonsapplikasjoner.",
+          },
+        ],
+      },
+    ],
   },
 
   en: {
@@ -73,12 +204,108 @@ export const aboutPageContent: Record<Locale, AboutPage> = {
 
     storyTitle: "Who we are",
     storyText:
-      "Innovatec combines expertise in technology, design, and strategic business development to deliver solutions that create value. We work closely with our clients to understand their needs and build solutions with long-term value.",
-
+      "Innovatec is a consulting company with dedicated specialists who develop and modernize complex software systems for mission-critical organizations. We achieve this through a combination of extensive experience and modern technology.",
     ctaTitle: "Want to work with us?",
-    ctaText: "We are always looking for talented people.",
+    ctaText:
+      "It is our people who make the difference. At Innovatec, you will find an inclusive work environment characterized by curiosity, collaboration, and a strong passion for technology and development.",
     ctaLabel: "Open positions",
     ctaHref: "/jobb-hos-oss",
+    historyTitle: "More than 20 years of trust and experience",
+
+    historyText:
+      "Since the company was established in 2003, we have developed and modernized mission-critical digital solutions for organizations with high demands for quality, stability, and security. Through automation and modern technology, we help create more efficient workflows, better collaboration, and secure management of data and services. Our projects are built on robust architecture, deep domain expertise, and solutions that deliver lasting value.",
+
+    methodologyTitle: "How we work",
+
+    methodologies: [
+      {
+        title: "Agile Development",
+        description:
+          "Iterative development in short sprints with continuous deliveries and close collaboration with clients. Scrum and Kanban are the most commonly used frameworks.",
+      },
+      {
+        title: "DevOps",
+        description:
+          "Combining development and operations through automated pipelines for building, testing, and deployment (CI/CD).",
+      },
+      {
+        title: "Microservices and Cloud",
+        description:
+          "Applications are divided into small, independent services. Docker and Kubernetes are used for containerization and orchestration.",
+      },
+      {
+        title: "Test-Driven Development (TDD)",
+        description:
+          "Tests are written before code, combined with code reviews to ensure quality and identify issues early.",
+      },
+      {
+        title: "Infrastructure as Code (IaC)",
+        description:
+          "Infrastructure is defined and version-controlled as code using tools such as Terraform and Ansible.",
+      },
+    ],
+
+    methodologyFooter:
+      "What all these methodologies have in common is a strong focus on automation, rapid feedback, and continuous improvement.",
+
+    deliveryTitle: "How we deliver",
+
+    deliveryText:
+      "No two projects or clients are the same. That is why we focus on finding the collaboration model that best suits both the task at hand and your organization.",
+
+    deliveryModels: [
+      "Project deliveries with consultants integrated into the client's team.",
+      "Complete teams with all roles covered.",
+      "Expertise on demand, for example a sparring partner with deep specialist knowledge who can help solve specific challenges and issues.",
+    ],
+
+    deliveryFooter:
+      "We offer a range of commercial models tailored to the work being delivered, from traditional time-based engagements to fixed-price deliveries and projects. Whether a project is short-term or long-term, we focus on delivering quality, clear documentation, and effective knowledge transfer throughout the engagement and upon completion.",
+
+    deliveryCta:
+      "Do you have a project you would like to discuss with us? Get in touch!",
+    sustainabilityTitle: "Our Values",
+
+    sustainabilityText:
+      "Innovatec places a strong emphasis on social responsibility, environmental stewardship, and sustainability. This is reflected through our Eco-Lighthouse certification, our continuous efforts to maintain a positive working environment, investment in competence development, talent growth, and a diverse workplace.",
+    partnersTitle: "Our partners",
+    partnersIntro:
+      "We take a technology-neutral approach when working with clients and projects. Our philosophy is that the task must be clearly defined before the right technology choices can be made. To support these choices, we have expertise in modern development frameworks, programming languages, platforms, and tools.",
+    partners: [
+      {
+        image: {
+          src: imagePartner1,
+          alt: "IBM",
+        },
+        description:
+          "We are an IBM partner and offer specialist expertise in the design, development, and implementation of their platform for automated decision support, IBM Operational Decision Manager.",
+      },
+      {
+        image: {
+          src: imagePartner2,
+          alt: "Icaria Technology",
+        },
+        description:
+          "We are a partner of Icaria Technology, a leading provider within its specialist fields. We assist with needs assessment, design, and implementation of automated solutions within:",
+        areas: [
+          {
+            title: "Test data management",
+            description:
+              "The data that testers and automated tests need, when they need it and as often as they need it.",
+          },
+          {
+            title: "Data governance",
+            description:
+              "Ensures the consistency and integrity of business-critical information stored in different databases.",
+          },
+          {
+            title: "Right to be forgotten",
+            description:
+              "Blocking and deletion of personal data in production applications.",
+          },
+        ],
+      },
+    ],
   },
 };
 

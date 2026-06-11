@@ -139,10 +139,9 @@ Nasjonal vitnemålsdatabase (NVB) er den sentrale løsningen for registrering, v
 
 NVB moderniseres for å møte nye krav til fleksibilitet, integrasjon og forvaltning. Den nye plattformen bygger på moderne arkitektur, internasjonale standarder og en avansert regelmotor som gjør det enklere å validere, dele og forvalte vitnemålsdata.
 
-Innovatec har hatt en sentral rolle i moderniseringsarbeidet, med ansvar innen arkitektur, systemutvikling og prosjektgjennomføring. Arbeidet omfatter blant annet utvikling av ny datamodell basert på European Learning Model (ELMv3), etablering av tilgangsstyring, migreringsstrategi, testarbeid og innføring av smidige arbeidsprosesser.
+Innovatec har hatt en sentral rolle i moderniseringsarbeidet, med ansvar innen arkitektur, systemutvikling og prosjektgjennomføring. Arbeidet har omfattet blant annet utvikling av ny datamodell basert på European Learning Model (ELMv3), etablering av tilgangsstyring, migreringsstrategi, testarbeid og innføring av smidige arbeidsprosesser.
 
-Gjennom tett samarbeid med prosjekteier og øvrige fagmiljøer er Innovatec med på å etablere en robust og fremtidsrettet løsning for håndtering av vitnemål og kompetansebevis.
-
+Gjennom tett samarbeid med prosjekteier og øvrige fagmiljøer har Innovatec vært med på å etablere en robust og fremtidsrettet løsning for håndtering av vitnemål og kompetansebevis.
 
 `,
     },
@@ -154,96 +153,135 @@ Gjennom tett samarbeid med prosjekteier og øvrige fagmiljøer er Innovatec med 
       client: "The Norwegian Directorate of Health",
       title: "Digital control and payment system for healthcare reimbursements",
       description:
-        "The solution automates the control and payment of reimbursement claims in the healthcare sector and contributes to faster settlements, high quality and proper management of public funds. In collaboration with the client, Innovatec is responsible for the design, development and maintenance of the system.",
+        "The solution automates the control and payment of reimbursement claims in the healthcare sector, contributing to faster settlements, high quality and proper management of public funds. In collaboration with the client, Innovatec is responsible for the design, development and maintenance of the system.",
       image: projectMainImage,
-      sector: "Public sector / education",
+      sector: "Public sector",
       year: "Long-term collaboration",
       expertise: [
         "System development",
         "Integrations",
         "Architecture",
-        "Maintenance",
+        "Security",
+        "Automation",
       ],
       detail: `
-  KUHR is a national control and payment system for healthcare reimbursements, developed for NAV IT
-  and the Norwegian Directorate of Health. The solution automates the control and payment of reimbursement claims in
-  the healthcare sector and contributes to faster settlements, high quality and proper management of public
-  funds.
-  
-  The system processes more than 90 million claims annually and is responsible for payments of nearly
-  30 billion NOK every year. The solution handles large transaction volumes across a
-  range of professional areas, including general practitioners, outpatient clinics, private laboratories/radiology,
-  healthcare centres, patient travel, physiotherapy, psychology, chiropractic care, dental care,
-  speech therapy, midwifery, orthoptics, audiopedagogy, dental hygienists and rehabilitation institutions.
-  
-  As much as 97–98% of all reimbursement claims are processed automatically through an advanced rules engine.
-  At the same time, the solution supports manual case handling, follow-up and reporting where
-  needed, while enabling efficient collaboration through modern APIs and integrations.
-  
-  Innovatec has been responsible for the design, development, further development and maintenance of the solution
-  since 2002, in close collaboration with the client. KUHR is built as a scalable and robust
-  platform, adapted to continuous changes in regulations, integrations and user needs.
-  `,
-    },
+KUHR is a national control and payment system for healthcare reimbursements, developed for NAV IT
+and the Norwegian Directorate of Health. The solution automates the control and payment of reimbursement claims in
+the healthcare sector and contributes to faster settlements, high quality and proper management of public
+funds.
 
+The system processes more than 90 million claims annually and is responsible for payments of nearly
+NOK 30 billion every year. The solution handles large transaction volumes across a wide range of
+professional areas, including general practitioners, outpatient clinics, private laboratories/radiology,
+health centres, patient travel, physiotherapy, psychology, chiropractic care, dental care, speech therapy,
+midwifery, orthoptics, audiopedagogy, dental hygienists and rehabilitation institutions.
+
+As much as 97–98% of all reimbursement claims are processed automatically through an advanced rules engine.
+At the same time, the solution supports manual case handling, follow-up and reporting where needed, and
+enables efficient collaboration through modern APIs and integrations.
+
+Innovatec is responsible for the design, development, further development and maintenance of the solution
+in close collaboration with the client. KUHR is built as a scalable and robust platform, adapted to continuous
+changes in regulations, integrations and user needs.
+`,
+    },
     {
       slug: "digital-samhandling",
-      client: "Large private enterprise",
+      client: "Private enterprise",
       title: "Development of an AI service from prototype to finished solution",
       description:
-        "Innovatec contributes consulting and development within rule technology and is part of a multidisciplinary team building the future solution for handling diplomas and certificates of competence.",
+        "From an early prototype to a robust and production-ready AI solution, we support the client throughout the entire development process. The goal is to turn strong ideas into secure, user-friendly and scalable services that create value.",
       image: projectSideTopImage,
-      sector: "Public sector",
+      sector: "Private sector",
       year: "Project-based delivery",
-      expertise: ["API development", "Frontend", "Integrations", "Consulting"],
+      expertise: [
+        "Artificial intelligence",
+        "Frontend",
+        "Integrations",
+        "Consulting",
+        "User experience",
+        "Security",
+        "Privacy",
+      ],
       detail: `
-  The National Diploma Registry (NVB) ensures that diplomas and certificates of competence from upper secondary
-  education are correctly registered, validated and made available for further use. The solution is used both
-  by schools for quality assurance and by organizations that require reliable documentation, such as
-  the Norwegian Universities and Colleges Admission Service.
-  
-  As part of the infrastructure delivered by Sikt, NVB contributes to secure and efficient sharing of
-  educational data across the sector.
-  
-  The current solution is being modernized to meet new requirements for flexibility, maintenance and
-  collaboration. The new platform enables simpler management of complex
-  regulations, including through a more accessible rules language that can also be used by
-  domain experts without a technical background.
-  
-  The solution is being developed with modern APIs, support for international standards and an advanced
-  rules engine, making it easier to integrate, validate and share diploma data in a secure and
-  efficient way.
-  `,
-    },
+The process is based on the client's self-developed proof of concept (POC), which demonstrates the potential
+of a new AI-based service. The goal is to further develop an idea or concept into a robust solution that can
+be used in regular operations.
 
+Together with the client, we analyse needs, target groups and use cases, and prepare a requirements specification
+that ensures both functional and non-functional requirements are addressed. The concept is then developed into
+a prototype where user experience, workflows and the interaction between people and AI are tested and improved.
+
+In parallel, assessments are carried out related to privacy, information security and compliance with relevant
+regulations. We also contribute with architecture work that supports integrations, scalability, operations and
+further development. The result is a complete and production-ready solution that is technically robust, safe to
+use and adapted to the organisation's needs and goals.
+`,
+    },
     {
       slug: "modernisering-av-fagsystem",
       client: "Norwegian Health Network",
       title: "Digital collaboration in the medication value chain",
       description:
-        "The solution is a good example of how standardization and digital collaboration can strengthen quality, efficiency and patient safety in modern healthcare services.",
-      image: projectSideBottomImage,
-      sector: "Industry / services",
-      year: "Modernization project",
+        "The solution is a good example of how standardisation and digital collaboration can strengthen quality, efficiency and patient safety in modern healthcare services.",
+      image: project3,
+      sector: "Public sector",
+      year: "Project assignment",
       expertise: [
         "Technical consulting",
-        "Frontend",
-        "Backend",
+        "Architecture",
+        "Integrations",
+        "Standardisation",
+        "Data modelling",
         "Quality assurance",
       ],
       detail: `
-  E-prescription is a national solution that enables secure and efficient electronic communication of
-  prescription and medication information. The solution connects the entire value chain – from
-  prescribing to dispensing and financial settlement – in one complete digital process.
-  
-  As part of the national e-health infrastructure developed and managed by the Norwegian Health Network,
-  e-prescription contributes to better collaboration, increased quality and more efficient healthcare services.
-  
-  Innovatec provides consulting within technical architecture and enterprise architecture, as well as
-  management of requirements and messaging standards in the e-prescription value chain. The work ensures robust
-  solutions that support continuous development and collaboration across stakeholders in
-  the healthcare sector.
-  `,
+E-prescription is a national solution that enables secure and efficient electronic communication of prescription
+and medication information. The solution connects the entire value chain – from prescribing to dispensing and
+financial settlement – in one complete digital process.
+
+As part of the national e-health infrastructure developed and managed by the Norwegian Health Network,
+e-prescription contributes to better collaboration, increased quality and more efficient healthcare services.
+
+Innovatec provides consulting within technical architecture and enterprise architecture, as well as management
+of requirements and messaging standards in the e-prescription value chain. The work ensures robust solutions
+that support continuous development and collaboration across stakeholders in the healthcare sector.
+`,
+    },
+    {
+      slug: "sikt",
+      client: "Sikt",
+      title: "NVB – modernisation of the National Diploma Registry",
+      description:
+        "Innovatec contributes consulting and development within rule technology and is part of a multidisciplinary team building the future solution for handling diplomas and certificates of competence.",
+      image: projectSideTopImage,
+      sector: "Public sector / education",
+      year: "Project-based delivery",
+      expertise: [
+        "API development",
+        "Frontend",
+        "Integrations",
+        "Consulting",
+        "Automation",
+        "Architecture",
+      ],
+      detail: `
+The National Diploma Registry (NVB) is the central solution for registering, validating and sharing diplomas
+and certificates of competence from upper secondary education. The solution is an important part of the
+infrastructure for secure handling of educational data in Norway.
+
+NVB is being modernised to meet new requirements for flexibility, integration and maintenance. The new platform
+is based on modern architecture, international standards and an advanced rules engine that makes it easier to
+validate, share and manage diploma data.
+
+Innovatec has played a central role in the modernisation work, with responsibility within architecture,
+system development and project execution. The work has included the development of a new data model based on
+the European Learning Model (ELMv3), establishment of access control, migration strategy, testing and the
+introduction of agile work processes.
+
+Through close collaboration with the project owner and other professional communities, Innovatec has helped
+establish a robust and future-oriented solution for handling diplomas and certificates of competence.
+`,
     },
   ],
 };

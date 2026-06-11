@@ -55,7 +55,7 @@ export function ExpertiseList({ title, expertise }: ExpertiseListProps) {
                 </div>
 
                 <div className="p-6 md:p-7">
-                  <div className="flex items-start gap-4">
+                  <div className="flex items-start gap-4 mb-4">
                     <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[var(--primary)] text-white shadow-sm">
                       <Icon className="h-5 w-5" strokeWidth={2} />
                     </span>

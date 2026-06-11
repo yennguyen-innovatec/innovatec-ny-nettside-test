@@ -63,8 +63,6 @@ export const ExpertisePageContent: Record<
         },
         description: [
           "Vi identifiserer manuelle og tidkrevende prosesser og gjør dem mer effektive gjennom smart automatisering. Dette spenner fra tradisjonelle regelbaserte systemer til moderne KI-drevne løsninger. Regelbaserte verktøy er pålitelige og forutsigbare og egner seg godt for strukturerte og repetitive oppgaver. De kan imidlertid bli utilstrekkelige når prosessene krever skjønn eller håndtering av ustrukturert informasjon.",
-
-          "Moderne KI- og dataløsninger fyller dette gapet ved å gjenkjenne mønstre i store datamengder, tolke ustrukturert input og forutsi fremtidige hendelser. I motsetning til regelbaserte systemer kan disse modellene forbedre seg over tid.",
         ],
       },
       {

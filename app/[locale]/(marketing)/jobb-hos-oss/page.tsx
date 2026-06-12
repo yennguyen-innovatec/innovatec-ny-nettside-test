@@ -73,10 +73,47 @@ export default async function CareersPage({
 
       <section id="ledige-stillinger" className="scroll-mt-32 py-16">
         <Container>
-          <div className="max-w-2xl">
+          <div>
             <h2 className="text-2xl font-semibold md:text-3xl">
               {content.positionsTitle}
             </h2>
+            <p className="mt-5 text-base leading-7 text-black/70">
+              {locale === "no" ? (
+                <>
+                  Takk for din interesse for å se på muligheter hos Innovatec.
+                  Vi går gjennom alle søknader manuelt og vi gir alltid en
+                  tilbakemelding på mottatte søknader. Søknad med CV sendes på
+                  e-post til{" "}
+                  <a
+                    href="mailto:jobb@innovatec.net"
+                    className="font-medium text-[var(--primary)] underline"
+                  >
+                    jobb@innovatec.net
+                  </a>
+                  . Ikke bruk mye tid eller tokens på et langt søknadsbrev, men
+                  del gjerne om det er noe du vil vise oss, det kan være en
+                  artikkel du har skrevet, en video, et prosjekt du har gjort
+                  eller noe annet du brenner for.
+                </>
+              ) : (
+                <>
+                  Thank you for your interest in opportunities at Innovatec. We
+                  review all applications manually and always provide feedback
+                  on received applications. Applications with a CV should be
+                  sent by email to{" "}
+                  <a
+                    href="mailto:jobb@innovatec.net"
+                    className="font-medium text-[var(--primary)] underline"
+                  >
+                    jobb@innovatec.net
+                  </a>
+                  . Please do not spend too much time or tokens on a long cover
+                  letter, but feel free to share something you would like us to
+                  see, such as an article you have written, a video, a project
+                  you have worked on, or anything else you are passionate about.
+                </>
+              )}
+            </p>
           </div>
 
           <div className="mt-10 grid gap-6">

@@ -20,6 +20,7 @@ import { Container } from "@/components/layout/container";
 import { PageHero } from "@/components/sections/page-hero";
 import { eurostarEventContent } from "@/content/icaria";
 import { Locale } from "@/lib/i18n";
+import { aboutPageContent } from "@/content/pages";
 
 type PageProps = {
   params: Promise<{ locale: Locale }>;
@@ -51,6 +52,8 @@ export async function generateMetadata({
 export default async function Eurostar2026Page({ params }: PageProps) {
   const { locale } = await params;
   const content = eurostarEventContent[locale];
+  const contentIcaria = aboutPageContent[locale];
+  const icariaPartner = contentIcaria.partners?.[1];
 
   return (
     <>
@@ -58,6 +61,24 @@ export default async function Eurostar2026Page({ params }: PageProps) {
 
       <section className="pb-16 md:pb-24">
         <Container>
+          <div className="bg-white p-8 rounded-3xl mb-12">
+            {icariaPartner?.areas && (
+              <div className=" grid gap-4 md:grid-cols-3">
+                {" "}
+                {icariaPartner.areas.map((area) => (
+                  <div
+                    key={area.title}
+                    className="rounded-[10px] bg-neutral-50 p-4"
+                  >
+                    <h3 className="text-sm font-semibold">{area.title}</h3>
+                    <p className="mt-2 text-sm leading-6 text-black/70">
+                      {area.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
           <div className="mb-12 max-w-4xl mx-auto">
             <p className="text-lg leading-8 text-slate-700 md:text-xl">
               {content.intro}

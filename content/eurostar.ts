@@ -15,7 +15,6 @@ export const eurostarPageContent: Record<
       label: string;
       value: string;
     }[];
-    partnerText: string;
   }
 > = {
   no: {

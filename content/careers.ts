@@ -36,6 +36,7 @@ export const careersContent: Record<
       buttonLabel: string;
       buttonHref: string;
     };
+    jobbIntro: string;
   }
 > = {
   no: {
@@ -174,6 +175,8 @@ export const careersContent: Record<
       buttonLabel: "Ledige stillinger",
       buttonHref: "/jobb-hos-oss#ledige-stillinger",
     },
+    jobbIntro:
+      "Takk for din interesse for å se på muligheter hos Innovatec. Vi går gjennom alle søknader manuelt og vi gir alltid en tilbakemelding på mottatte søknader. Søknad med CV sendes på e-post til jobb@innovatec.net. Ikke bruk mye tid eller tokens på et langt søknadsbrev, men del gjerne om det er noe du vil vise oss, det kan være en artikkel du har skrevet, en video, et prosjekt du har gjort eller noe annet du brenner for.",
   },
 
   en: {
@@ -321,5 +324,7 @@ export const careersContent: Record<
       buttonLabel: "Open positions",
       buttonHref: "/jobb-hos-oss#ledige-stillinger",
     },
+    jobbIntro:
+      "Thank you for your interest in opportunities at Innovatec. We review all applications manually and always provide feedback on received applications. Applications with a CV should be sent by email to jobb@innovatec.net. Please do not spend too much time or tokens on a long cover letter, but feel free to share something you would like us to see, such as an article you have written, a video, a project you have worked on, or anything else you are passionate about.",
   },
 };

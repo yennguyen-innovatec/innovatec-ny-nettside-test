@@ -22,7 +22,8 @@ export const eurostarEventContent: Record<
 > = {
   no: {
     title: "icaria TDM",
-    description: "On-demand tesdata for manuell og automatisert testing",
+    description:
+      "Vi er partner med Icaria Technology, en ledende leverandør innen sine fagområder. Vi bistår med behovskartlegging, design og implementering av automatiserte løsninger innen:",
     intro:
       "icaria TDM leverer dataene testere og automatiserte tester trenger, når de trenger dem, så ofte som nødvendig, samtidig som sensitiv informasjon beskyttes.",
     cards: [
@@ -75,7 +76,7 @@ export const eurostarEventContent: Record<
     ],
     moreTitle: "Vil du vite mer?",
     moreText:
-      "Vil du vite hvordan icaria TDM kan hjelpe deg med å implementere en strategi for testdatahåndtering?",
+      "Vil du vite hvordan Innovatec kan hjelpe deg med å implementere en strategi for testdatahåndtering?",
     moreButtonLabel: "Kontakt",
     stepsTitle: "Hvordan komme i gang",
     steps: [
@@ -104,7 +105,8 @@ export const eurostarEventContent: Record<
 
   en: {
     title: "icaria TDM",
-    description: "On-demand test data for manual and automated testing",
+    description:
+      "We are partners with Icaria Technology, a leading provider in its fields. We assist with needs assessment, design and implementation of automated solutions within:",
     intro:
       "icaria TDM delivers the data testers and automated tests need, when they need it, as often as necessary, while protecting sensitive information.",
     cards: [
@@ -157,7 +159,7 @@ export const eurostarEventContent: Record<
     ],
     moreTitle: "Want to know more?",
     moreText:
-      "Want to know how icaria TDM can help you implement a test data management strategy?",
+      "Want to know how Innovatec can help you implement a test data management strategy?",
     moreButtonLabel: "Contact",
     stepsTitle: "How to get started",
     steps: [

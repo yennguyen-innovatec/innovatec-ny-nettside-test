@@ -40,19 +40,17 @@ export default async function Eurostar2026Page({ params }: PageProps) {
 
               <div className="flex flex-wrap gap-4 pt-2 justify-center">
                 <Link
-                  href={content.buttonHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`/${locale}/`}
                   className="inline-flex rounded-full bg-[var(--primary)] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
                 >
-                  {content.buttonLabel}
+                  {locale === "no" ? "Tilbake forsiden" : "Back to homepage"}
                 </Link>
 
                 <Link
                   href={`/${locale}/icaria`}
                   className="inline-flex rounded-full border border-[var(--primary)] px-6 py-3 text-sm font-semibold text-[var(--primary)] transition hover:bg-[var(--primary)] hover:text-white"
                 >
-                  {locale === "no" ? "Om Icaria TDM" : "About Icaria TDM"}
+                  {locale === "no" ? "Les mer" : "Read more"}
                 </Link>
               </div>
             </div>

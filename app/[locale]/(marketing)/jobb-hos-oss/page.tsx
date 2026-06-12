@@ -77,7 +77,7 @@ export default async function CareersPage({
             <h2 className="text-2xl font-semibold md:text-3xl">
               {content.positionsTitle}
             </h2>
-            <p className="mt-5 text-base leading-7 text-black/70">
+            <p className="mt-5 text-base leading-7 text-black/70 max-w-5xl mx-auto">
               {locale === "no" ? (
                 <>
                   Takk for din interesse for å se på muligheter hos Innovatec.

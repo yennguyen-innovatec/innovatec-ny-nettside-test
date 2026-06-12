@@ -11,7 +11,7 @@ import { projects } from "@/content/projects";
 import { projectsPageContent } from "@/content/pages";
 import { EventBanner } from "@/components/sections/event-banner";
 import { Locale } from "@/lib/i18n";
-import { eurostarBannerContent } from "@/content/eurostar";
+import { eurostarBannerContent } from "@/content/icaria";
 export default async function HomePage({
   params,
 }: {

@@ -62,44 +62,44 @@ export const environmentContent: Record<
   },
 
   en: {
-    title: "Certified Eco-Lighthouse company",
+    title: "Certified Eco-Lighthouse Company",
     intro: [
-      "Innovatec has had a strong focus on social responsibility, environment and sustainability since 2008.",
+      "Since 2008, Innovatec has placed an extra focus on social responsibility, the environment and sustainability. A number of environmentally conscious guidelines were introduced within the company, including waste sorting and waste management, encouraging the use of public transportation, reducing energy consumption, and continuously improving the working environment.",
       "In spring 2023, we started the process of becoming certified as an Eco-Lighthouse company, and we were certified in June the same year.",
-      "As part of the certification, customers, partners and other stakeholders are invited to provide input on how the climate and environmental impact of our services can be improved.",
+      "Part of the Eco-Lighthouse certification concerns the interaction between the company and society. Therefore, customers, partners and other stakeholders are invited to provide input on how the climate and environmental impact of our products and services can be improved.",
     ],
-    reportLabel: "Read our Eco-Lighthouse report 2025",
+    reportLabel: "Read our Eco-Lighthouse Report 2025",
     reportHref:
       "https://portal.miljofyrtarn.no/organizations/34759/data/publicStatistics",
     policy: {
-      title: "Environmental policy for Innovatec – Innovative Technologies AS",
+      title: "Environmental Policy for Innovatec – Innovative Technologies AS",
       sections: [
         {
           title: "Introduction",
-          text: "As an IT consulting company, Innovatec is committed to running its business sustainably and contributing to climate- and environmentally friendly solutions.",
+          text: "As an IT consulting company, Innovatec is committed to operating its business in a sustainable manner and being a driving force for climate- and environmentally friendly solutions, both locally and globally. At the same time, we shall contribute by having expertise in, proposing and delivering sustainable digital solutions to our customers and society at large.",
         },
         {
-          title: "Purpose and scope",
+          title: "Purpose and Scope",
           items: [
-            "Our environmental policy shall be visible and transparent.",
-            "Our employees shall know and identify with the policy.",
+            "Our environmental policy shall be visible and characterized by openness.",
+            "Our employees shall be familiar with and identify with the environmental policy.",
             "Our suppliers, customers and partners shall have access to it.",
           ],
         },
         {
           title: "Goals",
           items: [
-            "Travel as climate-friendly as possible on business trips.",
-            "Reduce stress for our employees and promote a socially sustainable workday.",
-            "Facilitate a good working environment through continuous evaluation of HSE measures.",
-            "Promote energy-efficient code in customer projects.",
-            "Develop solutions that improve our customers’ workday and benefit society.",
-            "Provide training and development within climate and environment.",
+            "Travel as climate-friendly as possible on business trips and take climate and environmental considerations into account in all aspects of our operations.",
+            "Reduce stress for our employees and emphasize a socially sustainable everyday work life.",
+            "Facilitate an optimal working situation by continuously evaluating HSE measures and purchasing work equipment that minimizes work-related health issues.",
+            "Be a driving force for energy-efficient code in projects we carry out for our customers.",
+            "Contribute to developing solutions that make our customers’ workday more efficient and benefit society as a whole.",
+            "Provide training and develop our employees, customers and other partners in climate and environmental matters.",
           ],
         },
         {
-          title: "Responsibility and follow-up",
-          text: "Management has the main responsibility for environmental work, but all employees shall contribute through awareness and training. The policy is reviewed annually.",
+          title: "Responsibility and Follow-up",
+          text: "Management has the primary responsibility for environmental work, but all employees shall contribute through awareness and training. The environmental policy is reviewed annually for continuous improvement.",
         },
       ],
     },

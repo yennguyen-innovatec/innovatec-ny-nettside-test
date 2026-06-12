@@ -184,3 +184,22 @@ export const eurostarEventContent: Record<
     ],
   },
 };
+export const eurostarBannerContent: Record<
+  Locale,
+  {
+    description: string;
+    ctaLabel: string;
+  }
+> = {
+  no: {
+    description:
+      "Kom og møt oss på EuroSTAR-konferansen for en hyggelig prat om automatisert testing og test data management (TDM) i Expo.",
+    ctaLabel: "Les mer →",
+  },
+
+  en: {
+    description:
+      "Meet us at the EuroSTAR conference for a chat about automated testing and test data management (TDM) in the Expo area.",
+    ctaLabel: "Learn more →",
+  },
+};

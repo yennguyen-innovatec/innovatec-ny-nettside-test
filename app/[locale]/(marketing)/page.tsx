@@ -11,7 +11,7 @@ import { projects } from "@/content/projects";
 import { projectsPageContent } from "@/content/pages";
 import { EventBanner } from "@/components/sections/event-banner";
 import { Locale } from "@/lib/i18n";
-
+import { eurostarBannerContent } from "@/content/eurostar";
 export default async function HomePage({
   params,
 }: {
@@ -25,11 +25,14 @@ export default async function HomePage({
   const careers = careersContent[locale];
   const localeProjects = projects[locale];
   const projectsContent = projectsPageContent[locale];
-
+  const banner = eurostarBannerContent[locale];
   return (
     <>
-      <EventBanner href={`/${locale}/eurostar-2026`} />
-
+      <EventBanner
+        href={`/${locale}/eurostar-2026`}
+        description={banner.description}
+        ctaLabel={banner.ctaLabel}
+      />
       <HeroSection {...home.hero} />
 
       <ProjectsPreview

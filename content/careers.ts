@@ -317,7 +317,7 @@ export const careersContent: Record<
     block: {
       title: "Want to become part of Innovatec?",
       description:
-        "We are a community of engaged, curious and eager-to-learn technologists who gladly share knowledge, learn from one another and help each other.",
+        "It is the people at Innovatec who make the difference. At Innovatec, you will find an inclusive work environment characterized by curiosity, collaboration and a strong commitment to technology and development. We share knowledge, support one another and create an environment where there is room for both professional and personal growth. We are always looking for talented people who want to grow together with us. At Innovatec, you will have the opportunity to work in an inspiring and forward-thinking environment alongside colleagues who are passionate about learning, innovation and great solutions.",
       buttonLabel: "Open positions",
       buttonHref: "/jobb-hos-oss#ledige-stillinger",
     },

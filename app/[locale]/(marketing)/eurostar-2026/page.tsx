@@ -81,6 +81,18 @@ export default async function Eurostar2026Page({ params }: PageProps) {
                   </div>
                 ))}
               </dl>
+              <div className="mt-6">
+                <a
+                  href="https://conference.eurostarsoftwaretesting.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex rounded-full border border-[var(--primary)] px-4 py-2 text-sm font-semibold text-[var(--primary)] transition hover:bg-[var(--primary)] hover:text-white"
+                >
+                  {locale === "no"
+                    ? "Om EuroSTAR 2026"
+                    : " About EuroSTAR 2026"}
+                </a>
+              </div>
             </aside>
           </div>
         </Container>

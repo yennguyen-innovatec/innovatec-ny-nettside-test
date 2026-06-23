@@ -195,7 +195,7 @@ export const eurostarBannerContent: Record<
 > = {
   no: {
     description:
-      "KVi var på EuroSTAR-konferansen med fokus på automatisert testing og test data management (TDM). Les mer og ta gjerne kontakt med oss for en demo.",
+      "Vi var på EuroSTAR-konferansen med fokus på automatisert testing og test data management (TDM). Les mer og ta gjerne kontakt med oss for en demo.",
     ctaLabel: "Les mer →",
   },
 

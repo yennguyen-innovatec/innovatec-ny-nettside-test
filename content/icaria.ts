@@ -195,13 +195,13 @@ export const eurostarBannerContent: Record<
 > = {
   no: {
     description:
-      "Kom og møt oss på EuroSTAR-konferansen for en hyggelig prat om automatisert testing og test data management (TDM) i Expo.",
+      "KVi var på EuroSTAR-konferansen med fokus på automatisert testing og test data management (TDM). Les mer og ta gjerne kontakt med oss for en demo.",
     ctaLabel: "Les mer →",
   },
 
   en: {
     description:
-      "Meet us at the EuroSTAR conference for a chat about automated testing and test data management (TDM) in the Expo area.",
+      "We were at the EuroSTAR conference with a focus on automated testing and test data management (TDM). Read more and feel free to contact us for a demo.",
     ctaLabel: "Learn more →",
   },
 };

@@ -85,10 +85,10 @@ export default async function CareersPage({
                   tilbakemelding på mottatte søknader. Søknad med CV sendes på
                   e-post til{" "}
                   <a
-                    href="mailto:jobb@innovatec.net"
+                    href="mailto:info@innovatec.net"
                     className="font-medium text-[var(--primary)] underline"
                   >
-                    jobb@innovatec.net
+                    info@innovatec.net
                   </a>
                   . Ikke bruk mye tid eller tokens på et langt søknadsbrev, men
                   del gjerne om det er noe du vil vise oss, det kan være en

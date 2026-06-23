@@ -29,7 +29,7 @@ export default async function HomePage({
   return (
     <>
       <EventBanner
-        href={`/${locale}/eurostar-2026`}
+        href={`/${locale}/icaria`}
         description={banner.description}
         ctaLabel={banner.ctaLabel}
       />

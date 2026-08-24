@@ -80,6 +80,7 @@ type AboutPage = {
     areas?: {
       title: string;
       description: string;
+      href?: string;
     }[];
   }[];
 };
@@ -182,16 +183,19 @@ export const aboutPageContent: Record<Locale, AboutPage> = {
             title: "Test data management",
             description:
               "Dataene som testere og automatiserte tester trenger, når de trenger dem og så ofte de trenger dem.",
+            href: "https://icariatechnology.com/en/icaria-tdm/",
           },
           {
             title: "Data governance",
             description:
               "Sikrer konsistens og integritet til forretningskritisk informasjon som er lagret i ulike databaser.",
+            href: "https://icariatechnology.com/en/icaria-data-governance/",
           },
           {
             title: "Right to be forgotten",
             description:
               "Blokkering og sletting av personopplysninger i produksjonsapplikasjoner.",
+            href: "https://icariatechnology.com/en/icaria-data-privacy/",
           },
         ],
       },
@@ -293,16 +297,19 @@ export const aboutPageContent: Record<Locale, AboutPage> = {
             title: "Test data management",
             description:
               "The data that testers and automated tests need, when they need it and as often as they need it.",
+            href: "https://icariatechnology.com/en/icaria-tdm/",
           },
           {
             title: "Data governance",
             description:
               "Ensures the consistency and integrity of business-critical information stored in different databases.",
+            href: "https://icariatechnology.com/en/icaria-data-governance/",
           },
           {
             title: "Right to be forgotten",
             description:
               "Blocking and deletion of personal data in production applications.",
+            href: "https://icariatechnology.com/en/icaria-data-privacy/",
           },
         ],
       },

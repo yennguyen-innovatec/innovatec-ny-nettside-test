@@ -194,17 +194,28 @@ export default async function AboutPage({
                   {partner.areas && (
                     <div className="mt-6 grid gap-4 md:grid-cols-3">
                       {partner.areas.map((area) => (
-                        <div
+                        <a
                           key={area.title}
-                          className="rounded-[10px] bg-neutral-50 p-4"
+                          href={area.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="
+      block rounded-[10px] bg-neutral-50 p-4
+      transition-all duration-200
+      hover:-translate-y-1
+      hover:bg-neutral-100
+      hover:shadow-md
+      cursor-pointer
+    "
                         >
                           <h3 className="text-sm font-semibold">
                             {area.title}
                           </h3>
+
                           <p className="mt-2 text-sm leading-6 text-black/70">
                             {area.description}
                           </p>
-                        </div>
+                        </a>
                       ))}
                     </div>
                   )}

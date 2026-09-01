@@ -125,7 +125,7 @@ export const careersContent: Record<
       },
       {
         title: "Senior data scientist",
-        deadline: "30. september 2026",
+        deadline: "30 september 2026",
         location: "Oslo",
         type: "Fast, heltid",
         function: "Senior data scientist",

@@ -80,7 +80,7 @@ export const careersContent: Record<
     positions: [
       {
         title: "Senior testleder",
-        deadline: "31. august 2026",
+        deadline: "30 september 2026",
         location: "Oslo",
         type: "Fast, heltid",
         function: "QA / Testing / Testledelse",
@@ -222,7 +222,7 @@ export const careersContent: Record<
     positions: [
       {
         title: "Senior Test Manager",
-        deadline: "31 August 2026",
+        deadline: "30 September 2026",
         location: "Oslo",
         type: "Permanent, Full-time",
         function: "QA / Testing / Test Management",

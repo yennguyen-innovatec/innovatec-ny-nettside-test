@@ -1,4 +1,16 @@
 import { Locale } from "@/lib/i18n";
+import type { StaticImageData } from "next/image";
+import type { LucideIcon } from "lucide-react";
+
+import {
+  Code2,
+  Brain,
+  Workflow,
+  Boxes,
+  Search,
+  ShieldCheck,
+} from "lucide-react";
+
 import image1 from "@/public/architecture.jpg";
 import image2 from "@/public/aidata.jpg";
 import image3 from "@/public/automation.jpg";
@@ -6,7 +18,6 @@ import image4 from "@/public/qa.jpg";
 import image5 from "@/public/tech-due.jpg";
 import image6 from "@/public/security.jpg";
 
-import type { StaticImageData } from "next/image";
 export type ExpertiseItem = {
   id: string;
   title: string;
@@ -17,22 +28,45 @@ export type ExpertiseItem = {
   };
 };
 
-export const ExpertisePageContent: Record<
-  Locale,
-  {
-    eyebrow: string;
-    title: string;
-    description: string;
-    expertiseTitle: string;
-    expertise: ExpertiseItem[];
-  }
-> = {
+/**
+ * Shared icon map
+ * Used by both ExpertiseSection and ExpertiseList.
+ */
+export const expertiseIconMap: Record<string, LucideIcon> = {
+  // Norwegian ids
+  "arkitektur-og-systemutvikling": Code2,
+  "kunstig-intelligens-og-data": Brain,
+  "automatisering-av-forretningsprosesser": Workflow,
+  "kvalitetssikring-og-test": Boxes,
+  "teknisk-due-diligence": Search,
+  sikkerhet: ShieldCheck,
+
+  // English ids
+  "architecture-and-system-development": Code2,
+  "artificial-intelligence-and-data": Brain,
+  "business-process-automation": Workflow,
+  "quality-assurance-and-testing": Boxes,
+  "technical-due-diligence": Search,
+  security: ShieldCheck,
+};
+
+type ExpertisePageContentType = {
+  eyebrow: string;
+  title: string;
+  description: string;
+  expertiseTitle: string;
+  expertise: ExpertiseItem[];
+};
+
+export const ExpertisePageContent: Record<Locale, ExpertisePageContentType> = {
   no: {
     eyebrow: "Vår ekspertise",
     title: "Hva vi gjør",
     description:
       "Vi kombinerer vår ekspertise innen teknologi, design og strategisk forretningsutvikling for å levere digitale produkter og tjenester som hjelper kundene med å nå ambisjonene sine, både nå og i fremtiden.",
+
     expertiseTitle: "Tjenesteområder",
+
     expertise: [
       {
         id: "arkitektur-og-systemutvikling",
@@ -44,6 +78,7 @@ export const ExpertisePageContent: Record<
         description:
           "Vi utvikler robuste og skalerbare digitale løsninger med solid teknisk arkitektur som fundament. Fra idé og analyse til implementering og videreutvikling hjelper vi virksomheter med å bygge moderne systemer som er enkle å forvalte og videreutvikle over tid.",
       },
+
       {
         id: "kunstig-intelligens-og-data",
         title: "Kunstig intelligens og data",
@@ -54,6 +89,7 @@ export const ExpertisePageContent: Record<
         description:
           "Vi hjelper virksomheter med å bruke data mer effektivt og utforske mulighetene innen kunstig intelligens. Det kan være alt fra datagrunnlag og innsikt til analyse, automatisering og AI-støttede arbeidsprosesser som skaper konkret verdi i organisasjonen.",
       },
+
       {
         id: "automatisering-av-forretningsprosesser",
         title: "Automatisering av forretningsprosesser",
@@ -65,6 +101,7 @@ export const ExpertisePageContent: Record<
           "Vi identifiserer manuelle og tidkrevende prosesser og gjør dem mer effektive gjennom smart automatisering. Dette spenner fra tradisjonelle regelbaserte systemer til moderne KI-drevne løsninger. Regelbaserte verktøy er pålitelige og forutsigbare og egner seg godt for strukturerte og repetitive oppgaver. De kan imidlertid bli utilstrekkelige når prosessene krever skjønn eller håndtering av ustrukturert informasjon.",
         ],
       },
+
       {
         id: "kvalitetssikring-og-test",
         title: "Kvalitetssikring og test",
@@ -78,6 +115,7 @@ export const ExpertisePageContent: Record<
           "Kombinasjonen av testautomatisering, strukturert data governance og automatisert test data management (TDM) gir utviklingsteam det de trenger for å levere programvare raskere, tryggere og med høyere kvalitet.",
         ],
       },
+
       {
         id: "teknisk-due-diligence",
         title: "Teknisk due diligence",
@@ -88,6 +126,7 @@ export const ExpertisePageContent: Record<
         description:
           "Vi gjennomfører tekniske vurderinger som gir beslutningsstøtte ved investeringer, oppkjøp, modernisering eller større strategiske valg. Vi ser på arkitektur, kodebase, team, risiko og teknologiske forutsetninger for å gi et realistisk bilde av dagens situasjon og veien videre.",
       },
+
       {
         id: "sikkerhet",
         title: "Sikkerhet",
@@ -106,7 +145,9 @@ export const ExpertisePageContent: Record<
     title: "What we do",
     description:
       "We combine our expertise in technology, design, and strategic business development to deliver digital products and services that help our clients achieve their ambitions, both now and in the future.",
+
     expertiseTitle: "Service areas",
+
     expertise: [
       {
         id: "arkitektur-og-systemutvikling",
@@ -118,6 +159,7 @@ export const ExpertisePageContent: Record<
         description:
           "We build robust and scalable digital solutions founded on strong technical architecture. From concept and analysis to implementation and further development, we help organizations create modern systems that are easier to maintain, evolve, and grow over time.",
       },
+
       {
         id: "kunstig-intelligens-og-data",
         title: "Artificial intelligence and data",
@@ -128,6 +170,7 @@ export const ExpertisePageContent: Record<
         description:
           "We help organizations make better use of data and explore the practical value of artificial intelligence. This includes everything from data foundations and insight generation to analytics, automation, and AI-supported workflows that create measurable business value.",
       },
+
       {
         id: "automatisering-av-forretningsprosesser",
         title: "Business process automation",
@@ -138,6 +181,7 @@ export const ExpertisePageContent: Record<
         description:
           "We identify manual and time-consuming processes and improve them through smart automation. The goal is to reduce friction, improve quality, and free up time so teams can focus on the work that creates the most value.",
       },
+
       {
         id: "kvalitetssikring-og-test",
         title: "Quality assurance and testing",
@@ -148,6 +192,7 @@ export const ExpertisePageContent: Record<
         description:
           "We improve the quality of digital products through structured quality assurance, test strategy, and execution. We work with functional testing, test automation, and quality practices throughout the development lifecycle to reduce risk and ensure stable deliveries.",
       },
+
       {
         id: "teknisk-due-diligence",
         title: "Technical due diligence",
@@ -158,6 +203,7 @@ export const ExpertisePageContent: Record<
         description:
           "We perform technical assessments that support decision-making in investments, acquisitions, modernization efforts, and major strategic initiatives. We evaluate architecture, codebase, team capabilities, risks, and technical maturity to provide a realistic picture of the current state and the road ahead.",
       },
+
       {
         id: "security",
         title: "Security",

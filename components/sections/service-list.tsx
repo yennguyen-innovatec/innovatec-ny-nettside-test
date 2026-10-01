@@ -1,27 +1,14 @@
 import Image from "next/image";
+import { Code2 } from "lucide-react";
+
 import { Container } from "@/components/layout/container";
 import expertiseBg from "@/public/expertise-bg.jpg";
-import { Code2, Brain, Workflow, CheckCircle, ShieldCheck } from "lucide-react";
-import type { StaticImageData } from "next/image";
+
+import { expertiseIconMap, type ExpertiseItem } from "@/content/expertise";
+
 type ExpertiseListProps = {
   title: string;
-  expertise: {
-    id: string;
-    title: string;
-    description: string | string[];
-    image?: {
-      src: StaticImageData;
-      alt: string;
-    };
-  }[];
-};
-
-const iconMap = {
-  "arkitektur-og-systemutvikling": Code2,
-  "kunstig-intelligens-og-data": Brain,
-  "automatisering-av-forretningsprosesser": Workflow,
-  "kvalitetssikring-og-test": CheckCircle,
-  "teknisk-due-diligence": ShieldCheck,
+  expertise: ExpertiseItem[];
 };
 
 export function ExpertiseList({ title, expertise }: ExpertiseListProps) {
@@ -36,13 +23,30 @@ export function ExpertiseList({ title, expertise }: ExpertiseListProps) {
 
         <div className="grid gap-6 md:grid-cols-2">
           {expertise.map((service) => {
-            const Icon = iconMap[service.id as keyof typeof iconMap] ?? Code2;
+            /*
+             * Shared icon based on expertise id.
+             *
+             * Code2 fallback prevents React from trying
+             * to render an undefined component.
+             */
+            const Icon = expertiseIconMap[service.id] ?? Code2;
 
             return (
               <article
                 key={service.id}
                 id={service.id}
-                className="scroll-mt-30 overflow-hidden rounded-2xl border border-black/10 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+                className="
+                  scroll-mt-30
+                  overflow-hidden
+                  rounded-2xl
+                  border
+                  border-black/10
+                  bg-white
+                  shadow-sm
+                  transition
+                  hover:-translate-y-0.5
+                  hover:shadow-md
+                "
               >
                 <div className="relative h-48">
                   <Image
@@ -55,20 +59,36 @@ export function ExpertiseList({ title, expertise }: ExpertiseListProps) {
                 </div>
 
                 <div className="p-6 md:p-7">
-                  <div className="flex items-start gap-4 mb-4">
-                    <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[var(--primary)] text-white shadow-sm">
-                      <Icon className="h-5 w-5" strokeWidth={2} />
+                  <div className="mb-4 flex items-start gap-4">
+                    <span
+                      className="
+                        mt-0.5
+                        flex
+                        h-10
+                        w-10
+                        shrink-0
+                        items-center
+                        justify-center
+                        rounded-full
+                        bg-[#002B55]
+                        shadow-sm
+                      "
+                    >
+                      <Icon
+                        className="h-5 w-5 text-[#F7941D]"
+                        strokeWidth={2}
+                      />
                     </span>
 
-                    <h3 className="text-xl font-semibold leading-snug text-[var(--primary)] self-center">
+                    <h3 className="self-center text-xl font-semibold leading-snug text-[var(--primary)]">
                       {service.title}
                     </h3>
                   </div>
 
                   {Array.isArray(service.description) ? (
                     <div className="space-y-4">
-                      {service.description.map((paragraph) => (
-                        <p key={paragraph}>{paragraph}</p>
+                      {service.description.map((paragraph, index) => (
+                        <p key={`${service.id}-${index}`}>{paragraph}</p>
                       ))}
                     </div>
                   ) : (

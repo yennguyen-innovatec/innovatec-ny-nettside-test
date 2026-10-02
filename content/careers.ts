@@ -80,7 +80,7 @@ export const careersContent: Record<
     positions: [
       {
         title: "Senior testleder",
-        deadline: "30 september 2026",
+        deadline: "30.10.2026",
         location: "Oslo",
         type: "Fast, heltid",
         function: "QA / Testing / Testledelse",
@@ -125,7 +125,7 @@ export const careersContent: Record<
       },
       {
         title: "Senior data scientist",
-        deadline: "30 september 2026",
+        deadline: "30.10.2026",
         location: "Oslo",
         type: "Fast, heltid",
         function: "Senior data scientist",
@@ -222,7 +222,7 @@ export const careersContent: Record<
     positions: [
       {
         title: "Senior Test Manager",
-        deadline: "30 September 2026",
+        deadline: "30.10.2026",
         location: "Oslo",
         type: "Permanent, Full-time",
         function: "QA / Testing / Test Management",
@@ -271,7 +271,7 @@ export const careersContent: Record<
 
       {
         title: "Senior Data Scientist",
-        deadline: "30 September 2026",
+        deadline: "30.10.2026",
         location: "Oslo",
         type: "Permanent, Full-time",
         function: "Senior Data Scientist",

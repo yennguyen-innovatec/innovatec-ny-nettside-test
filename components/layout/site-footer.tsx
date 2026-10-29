@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Container } from "@/components/layout/container";
 import { siteConfig, siteCopy } from "@/content/site";
 import { Locale } from "@/lib/i18n";
-import miljoImg from "@/public/miljo-logo.webp";
+import miljoImg from "@/public/miljo-nye.png";
 import Image from "next/image";
 
 function LinkedInLogo() {
